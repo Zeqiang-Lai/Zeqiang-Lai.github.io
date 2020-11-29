@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects | Zeqiang</title>
-    <link>/project/</link>
-      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
-    <description>Projects</description>
+    <title>Featured | Zeqiang</title>
+    <link>/tag/featured/</link>
+      <atom:link href="/tag/featured/index.xml" rel="self" type="application/rss+xml" />
+    <description>Featured</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu5ca695ee9fc29bf2d6e2aae9f834c226_27445_512x512_fill_lanczos_center_2.png</url>
-      <title>Projects</title>
-      <link>/project/</link>
+      <title>Featured</title>
+      <link>/tag/featured/</link>
     </image>
     
     <item>
@@ -25,22 +25,6 @@
       <link>/project/yan/</link>
       <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
       <guid>/project/yan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Timer</title>
-      <link>/project/timer/</link>
-      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/project/timer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>IconHide</title>
-      <link>/project/iconhide/</link>
-      <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/project/iconhide/</guid>
       <description></description>
     </item>
     

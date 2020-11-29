@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Other | Zeqiang</title>
+    <link>/tag/other/</link>
+      <atom:link href="/tag/other/index.xml" rel="self" type="application/rss+xml" />
+    <description>Other</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 26 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu5ca695ee9fc29bf2d6e2aae9f834c226_27445_512x512_fill_lanczos_center_2.png</url>
+      <title>Other</title>
+      <link>/tag/other/</link>
+    </image>
+    
+    <item>
+      <title>Yan</title>
+      <link>/project/yan/</link>
+      <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/project/yan/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
