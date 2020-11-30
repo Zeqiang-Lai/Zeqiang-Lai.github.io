@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-  <sitemap>
-    <loc>/en/sitemap.xml</loc>
-    
-      <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-    
-  </sitemap>
+  <url>
+    <loc>https://example.com/contact/</loc>
+  </url>
   
-  <sitemap>
-    <loc>/zh/sitemap.xml</loc>
-    
-  </sitemap>
+  <url>
+    <loc>https://example.com/about/</loc>
+  </url>
   
-</sitemapindex>
+  <url>
+    <loc>https://example.com/</loc>
+  </url>
+  
+</urlset>
