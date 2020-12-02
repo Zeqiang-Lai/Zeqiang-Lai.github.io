@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zeqiang Lai</title>
-    <link>https://example.com/</link>
+    <link>https://zeqiang-lai.github.io/</link>
     <description>Recent content on Zeqiang Lai</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://zeqiang-lai.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contact</title>
-      <link>https://example.com/contact/</link>
+      <link>https://zeqiang-lai.github.io/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/contact/</guid>
+      <guid>https://zeqiang-lai.github.io/contact/</guid>
       <description> Email: laizeqiang@outlook.com  Social  Github  </description>
     </item>
     
     <item>
       <title>Zeqiang Lai</title>
-      <link>https://example.com/about/</link>
+      <link>https://zeqiang-lai.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/about/</guid>
+      <guid>https://zeqiang-lai.github.io/about/</guid>
       <description>About Me  I am currently a graduate student of Computer Science at the Beijing Institute of Technology. My primary work focuss on the deep learning of computer vision, though I am also interested in the development of useful tools and anything fun. You can find the source code of my projects on my GitHub.
 Research Interest Being learning for now.
 Publications In chronological order:
