@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: TFPnP
+description: Toolbox for Tuning-free Plug-and-Play Proximal Algorithm 
+img: assets/img/1.jpg
 importance: 3
 category: fun
 ---
