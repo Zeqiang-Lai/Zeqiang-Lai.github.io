@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /repositories/
-title: ISP Lab
+title: Github
 nav: true
 nav_order: 3
 ---

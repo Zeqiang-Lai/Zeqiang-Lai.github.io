@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Datasets
+title: Projects
 permalink: /datasets/
 description: A growing collection of your cool projects.
 nav: true
