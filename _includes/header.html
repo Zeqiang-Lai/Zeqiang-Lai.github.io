@@ -4,11 +4,10 @@
       <!-- Nav Bar -->
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
         <div class="container">
-          {% if page.permalink != '/' -%}
-          <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+          <a class="navbar-brand title" href="{{ site.baseurl }}/">
             {%- if site.title == "blank" -%}
               {%- if site.first_name -%}
-                <span class="font-weight-bold">{{- site.first_name -}}&nbsp;</span>
+                {{- site.first_name -}}&nbsp;
               {%- endif -%}
               {%- if site.middle_name -%}
                 {{- site.middle_name -}}&nbsp;
@@ -20,12 +19,9 @@
               {{- site.title -}}
             {%- endif -%}
           </a>
-          {%- elsif site.enable_navbar_social -%}
-          <!-- Social Icons -->
           <div class="navbar-brand social">
             {% include social.html %}
           </div>
-          {% endif %}
           <!-- Navbar Toggle -->
           <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle navigation</span>

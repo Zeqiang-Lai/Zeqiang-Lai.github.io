@@ -1,19 +1,60 @@
 ---
-layout: about
+layout: about2
 title: About
 permalink: /
-subtitle: "Graduate Student<br>Computer Science Department, Beijing Institute of Technology, China"
+description:
 
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: true
+social: true
+years: [2023, 2022, 2021]
 ---
 
-I am currently a graduate student of Computer Science at the Beijing Institute of Technology. My primary work focus on the research of computer vision, especially the applications of deep learning on image processing, optimization, generated modeling. I am also interested in the development of useful and fun tools, you can find the source code of these projects on my Github.
+Master in Computer Science <br/>
+Student, Beijing Institute of Technology <br/>
+<a href="" target="_blank"><b>Curriculum Vitae</b></a>
 
+----
+
+I am a graduate student at Beijing Institute of Technology, advised by [Prof. Ying Fu](https://ying-fu.github.io/publication.html).
+
+My research interest lies in the optimization and computer vision. Previously, I primarily worked on diffusion models, proximal algorithm modeling, and hyperspectral image restoration. I also gained experience in some high-level vision tasks during the internship at [OpenGVLab](https://github.com/OpenGVLab).
+
+----
+
+##### News
+
+- 2023-5-5: [Delta-Prox](https://github.com/princeton-computational-imaging/Delta-Prox) is accepted by SIGGRAPH TOG.
+- 2022-1-27: [DPHSIR](https://github.com/Zeqiang-Lai/DPHSIR) is accepted by Neurocomputing.
+
+----
+
+##### Selected Publications
+
+<div class="publications">
+  {% bibliography -f papers -q @*[selected=true]* %}
+</div>
+
+----
+
+##### Experiences
+
+- 2022-5 ~ Now: Research intern at [Shanghai AI laboratory](https://www.shlab.org.cn/), advised by [Wenhai Wang](https://whai362.github.io/).
+- 2019-7 ~ 2020-3: Algorithm intern at [Kuaishou Technology](https://www.kuaishou.com/en), Y-Tech.
+
+----
+
+##### Services
+
+**Journal reviewer**: TIP / TGRS
+
+**Conference reviewer**: CVPR 2022 / ICCV 2021 / PBDL 2021 / ACMMM 2021
+
+----
+
+##### Awards
+
+- National Scholarship China (2022)
+- Academic Scholarship of Beijing Institute of Technology (2020,2022)
+- Honorable Mention, Interdisciplinary Contest in Modeling (2019)
+- First Prize of China Undergraduate Mathematical Contest in Modeling, Beijing (2018)
+- Scholarship for Outstanding Students (2017,2018)
