@@ -11,7 +11,8 @@ years: [2023, 2022, 2021]
 
 Master in Computer Science <br/>
 Student, Beijing Institute of Technology <br/>
-<a href="" target="_blank"><b>Curriculum Vitae</b></a>
+<a href="" target="_blank"><b>Curriculum Vitae</b></a> |
+<a href="https://zeqiang-lai.github.io/blog/" target="_blank"><b>Blog</b></a>
 
 ----
 
