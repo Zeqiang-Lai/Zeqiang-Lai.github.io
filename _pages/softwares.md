@@ -2,11 +2,9 @@
 layout: page
 title: Softwares
 permalink: /softwares/
-description: A growing collection of your cool projects.
+description: A growing collection of my cool projects.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
-horizontal: true
 ---
 
 <div class="code-table">
@@ -31,7 +29,7 @@ horizontal: true
   <tbody>
    <tr>
       <th scope="row">May, 2023</th>
-      <td>∇-Prox: Differentiable Proximal Algorithm Modeling for Large-Scale Optimization</td>
+      <td><b>∇-Prox: Differentiable Proximal Algorithm Modeling for Large-Scale Optimization</b></td>
       <td><a href="https://github.com/princeton-computational-imaging/Delta-Prox" target="_blank" rel="noopener noreferrer">DeltaProx</a></td>
       <td><a class="github-button" href="https://github.com/princeton-computational-imaging/Delta-Prox" data-icon="octicon-star" data-show-count="true" aria-label="Star princeton-computational-imaging/Delta-Prox on GitHub" target="_blank" rel="noopener noreferrer">Star</a></td>
     </tr>
@@ -61,7 +59,7 @@ horizontal: true
     </tr>
      <tr>
       <th scope="row">Jun, 2021</th>
-      <td>Tuning-free Plug-and-Play Proximal Algorithm for Inverse Imaging Problems</td>
+      <td><b>Tuning-free Plug-and-Play Proximal Algorithm for Inverse Imaging Problems</b></td>
       <td><a href="https://github.com/Vandermode/TFPnP" target="_blank" rel="noopener noreferrer">TFPnP</a></td>
       <td><a class="github-button" href="https://github.com/Vandermode/TFPnP" data-icon="octicon-star" data-show-count="true" aria-label="Star Vandermode/TFPnP on GitHub" target="_blank" rel="noopener noreferrer">Star</a></td>
     </tr>
@@ -94,7 +92,7 @@ horizontal: true
     </tr>
     <tr>
       <th scope="row">Jun, 2022</th>
-      <td>Out-of-box Hyperspectral Image Restoration Toolbox and Benchmark</td>
+      <td><b>Out-of-box Hyperspectral Image Restoration Toolbox and Benchmark</b></td>
       <td><a href="https://github.com/bit-isp/HSIR" target="_blank" rel="noopener noreferrer">HSIR</a></td>
       <td><a class="github-button" href="https://github.com/bit-isp/HSIR" data-icon="octicon-star" data-show-count="true" aria-label="Star bit-isp/HSIR on GitHub" target="_blank" rel="noopener noreferrer">Star</a></td>
     </tr>
@@ -112,7 +110,7 @@ horizontal: true
     </tr>
     <tr>
       <th scope="row">Feb, 2020</th>
-      <td>Yan: An Educational Compiler Framework</td>
+      <td><b>Yan: An Educational Compiler Framework</b></td>
       <td><a href="https://github.com/yan-lang/yan" target="_blank" rel="noopener noreferrer">Yan</a></td>
       <td><a class="github-button" href="https://github.com/yan-lang/yan" data-icon="octicon-star" data-show-count="true" aria-label="Star yan-lang/yan on GitHub" target="_blank" rel="noopener noreferrer">Star</a></td>
     </tr>
