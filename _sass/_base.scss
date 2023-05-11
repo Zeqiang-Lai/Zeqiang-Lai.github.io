@@ -488,12 +488,13 @@ footer.sticky-bottom {
 
 
 // Publications
-
-.about_pub {
-  #lai2023dprox {
-      -ms-flex: 0 0 83.333%;
-      flex: 0 0 83.333%;
-      max-width: 83.333%;
+@media (min-width: 576px) {
+  .about_pub {
+    #lai2023dprox {
+        -ms-flex: 0 0 83.333%;
+        flex: 0 0 83.333%;
+        max-width: 83.333%;
+    }
   }
 }
 
