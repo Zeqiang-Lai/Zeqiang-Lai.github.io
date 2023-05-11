@@ -31,7 +31,7 @@ My research interest lies in the optimization and computer vision. Previously, I
 
 ##### Selected Publications
 
-<div class="publications">
+<div class="publications about_pub">
   {% bibliography -f papers -q @*[selected=true]* %}
 </div>
 
