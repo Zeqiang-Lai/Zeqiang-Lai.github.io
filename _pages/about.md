@@ -24,7 +24,7 @@ My research interest lies in the optimization and computer vision. Previously, I
 
 ##### News
 
-<!-- - 2023-5-5: [Delta-Prox](https://github.com/princeton-computational-imaging/Delta-Prox) is accepted by SIGGRAPH TOG. -->
+- 2023-5-1: [Delta-Prox](https://github.com/princeton-computational-imaging/Delta-Prox) is accepted by SIGGRAPH TOG.
 - 2022-1-27: [DPHSIR](https://github.com/Zeqiang-Lai/DPHSIR) is accepted by Neurocomputing.
 
 ----
