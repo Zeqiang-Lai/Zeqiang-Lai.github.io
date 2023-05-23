@@ -20,7 +20,7 @@ I am a third year graduate student at Beijing Institute of Technology, advised b
 
 My research interest lies in the optimization and computer vision. Previously, I primarily worked on diffusion models, proximal algorithm modeling, and image restoration. I also gained experience in some high-level vision tasks during the internship at [OpenGVLab](https://github.com/OpenGVLab).
 
-I will be graduated at July 2023 and open for job opportunity.
+<!-- I will be graduated at July 2023 and open for job opportunity. -->
 
 ----
 
