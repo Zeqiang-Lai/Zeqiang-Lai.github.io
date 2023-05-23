@@ -16,16 +16,19 @@ Student, Beijing Institute of Technology <br/>
 
 ----
 
-I am a graduate student at Beijing Institute of Technology, advised by [Prof. Ying Fu](https://ying-fu.github.io/publication.html).
+I am a third year graduate student at Beijing Institute of Technology, advised by [Prof. Ying Fu](https://ying-fu.github.io/publication.html).
 
 My research interest lies in the optimization and computer vision. Previously, I primarily worked on diffusion models, proximal algorithm modeling, and image restoration. I also gained experience in some high-level vision tasks during the internship at [OpenGVLab](https://github.com/OpenGVLab).
+
+I will be graduated at July 2023 and open for job opportunity.
 
 ----
 
 ##### News
 
-- 2023-5-1: [Delta-Prox](https://github.com/princeton-computational-imaging/Delta-Prox) is accepted by SIGGRAPH TOG.
-- 2022-1-27: [DPHSIR](https://github.com/Zeqiang-Lai/DPHSIR) is accepted by Neurocomputing.
+- May 2023: Created two funny demos for image generation and editing, take a look at [Anything2Image](https://github.com/Zeqiang-Lai/Anything2Image) and [DragGAN](https://github.com/Zeqiang-Lai/DragGAN).
+- May 2023: [Delta-Prox](https://github.com/princeton-computational-imaging/Delta-Prox) is accepted by SIGGRAPH TOG.
+- Jan 2022: [DPHSIR](https://github.com/Zeqiang-Lai/DPHSIR) is accepted by Neurocomputing.
 
 ----
 
