@@ -569,11 +569,12 @@ footer.sticky-bottom {
       }
       .author {
         a {
-          border-bottom: 1px dashed var(--global-theme-color);
+          // border-bottom: 1px dashed var(--global-theme-color);
           &:hover {
-              border-bottom-style: solid;
+              border-bottom-style: dashed;
               text-decoration: none;
           }
+          // color: rgb(56, 82, 161);
         }
         > em {
           border-bottom: 1px solid;
