@@ -27,6 +27,12 @@ nav_order: 2
     </tr>
   </thead>
   <tbody>
+  <tr>
+      <th scope="row">May, 2023</th>
+      <td><b>Internchat: Solving Vision-Centric Tasks by Interacting with Chatbots beyond Language</b></td>
+      <td><a href="https://github.com/OpenGVLab/InternGPT" target="_blank" rel="noopener noreferrer">InternGPT</a></td>
+      <td><a class="github-button" href="https://github.com/OpenGVLab/InternGPT" data-icon="octicon-star" data-show-count="true" aria-label="Star OpenGVLab/InternGPT on GitHub" target="_blank" rel="noopener noreferrer">Star</a></td>
+    </tr>
    <tr>
       <th scope="row">May, 2023</th>
       <td><b>∇-Prox: Differentiable Proximal Algorithm Modeling for Large-Scale Optimization</b></td>
@@ -84,6 +90,18 @@ nav_order: 2
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <th scope="row">May, 2023</th>
+      <td>DragGAN: Unofficial Implementation</td>
+      <td><a href="https://github.com/Zeqiang-Lai/DragGAN" target="_blank" rel="noopener noreferrer">DragGAN</a></td>
+      <td><a class="github-button" href="https://github.com/Zeqiang-Lai/DragGAN" data-icon="octicon-star" data-show-count="true" aria-label="Star Zeqiang-Lai/DragGAN on GitHub" target="_blank" rel="noopener noreferrer">Star</a></td>
+    </tr>
+    <tr>
+      <th scope="row">May, 2023</th>
+      <td>Generate Image from Anything</td>
+      <td><a href="https://github.com/Zeqiang-Lai/Anything2Image" target="_blank" rel="noopener noreferrer">Anything2Image</a></td>
+      <td><a class="github-button" href="https://github.com/Zeqiang-Lai/Anything2Image" data-icon="octicon-star" data-show-count="true" aria-label="Star Zeqiang-Lai/Anything2Image on GitHub" target="_blank" rel="noopener noreferrer">Star</a></td>
+    </tr>
     <tr>
       <th scope="row">Mar, 2023</th>
       <td>A collection of resources and papers on Diffusion Models</td>
