@@ -29,7 +29,7 @@ nav_order: 2
   <tbody>
   <tr>
       <th scope="row">May, 2023</th>
-      <td><b>Internchat: Solving Vision-Centric Tasks by Interacting with Chatbots beyond Language</b></td>
+      <td><b>InternGPT: Solving Vision-Centric Tasks by Interacting with Chatbots Beyond Language</b></td>
       <td><a href="https://github.com/OpenGVLab/InternGPT" target="_blank" rel="noopener noreferrer">InternGPT</a></td>
       <td><a class="github-button" href="https://github.com/OpenGVLab/InternGPT" data-icon="octicon-star" data-show-count="true" aria-label="Star OpenGVLab/InternGPT on GitHub" target="_blank" rel="noopener noreferrer">Star</a></td>
     </tr>
