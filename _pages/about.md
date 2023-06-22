@@ -16,7 +16,7 @@ Student, Beijing Institute of Technology <br/>
 
 ----
 
-I am a third year graduate student at Beijing Institute of Technology, advised by [Prof. Ying Fu](https://ying-fu.github.io/publication.html). Before that, I received my B.S. in Computer Science and Technology from Beijing Institute of Technology in 2020. Concurrently, I am fortunately to be advised by [Felix Heide](https://www.cs.princeton.edu/~fheide/) and closely work with [Kaixuan Wei](https://kxwei.net/) at Princeton University.
+I am a third year graduate student at Beijing Institute of Technology, advised by [Prof. Ying Fu](https://ying-fu.github.io/publication.html). Before that, I received my B.S. in Computer Science and Technology from Beijing Institute of Technology in 2020. I was fortunately to be advised by [Felix Heide](https://www.cs.princeton.edu/~fheide/) and closely work with [Kaixuan Wei](https://kxwei.net/) at Princeton University.
 
 My research interest lies in the optimization and computer vision. Previously, I primarily worked on diffusion models, proximal algorithm modeling, and image restoration. I also gained experience in some high-level vision tasks during the internship at [OpenGVLab](https://github.com/OpenGVLab), advised by [Wenhai Wang](https://whai362.github.io/).
 
@@ -27,7 +27,7 @@ My research interest lies in the optimization and computer vision. Previously, I
 ##### News
 
 - May 2023: 🔥 Released two funny demos at [Anything2Image](https://github.com/Zeqiang-Lai/Anything2Image) and [DragGAN](https://github.com/Zeqiang-Lai/DragGAN).
-- May 2023: 🎉 [Delta-Prox](https://github.com/princeton-computational-imaging/Delta-Prox) is accepted by SIGGRAPH TOG.
+<!-- - May 2023: 🎉 [Delta-Prox](https://github.com/princeton-computational-imaging/Delta-Prox) is accepted by SIGGRAPH TOG. -->
 - Jan 2022: 📜 [DPHSIR](https://github.com/Zeqiang-Lai/DPHSIR) is accepted by Neurocomputing.
 
 ----
