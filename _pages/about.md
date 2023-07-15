@@ -16,7 +16,7 @@ Student, Beijing Institute of Technology <br/>
 
 ----
 
-I am a graduate student at Beijing Institute of Technology, advised by [Prof. Ying Fu](https://ying-fu.github.io/publication.html). Before that, I received my B.S. in Computer Science and Technology from Beijing Institute of Technology in 2020. I work closely with [Kaixuan Wei](https://kxwei.net/) advised by [Felix Heide](https://www.cs.princeton.edu/~fheide/) at Princeton University.
+I am a graduate student at Beijing Institute of Technology, advised by [Prof. Ying Fu](https://ying-fu.github.io/publication.html). Before that, I received my B.S. in Computer Science and Technology from Beijing Institute of Technology in 2020. I also work closely with [Kaixuan Wei](https://kxwei.net/) advised by [Felix Heide](https://www.cs.princeton.edu/~fheide/) at Princeton University.
 
 My research interest lies in the optimization and computer vision. Previously, I primarily worked on diffusion models, proximal algorithm modeling, and image restoration. I also gained experience in some high-level vision tasks during the internship at [OpenGVLab](https://github.com/OpenGVLab), advised by [Wenhai Wang](https://whai362.github.io/).
 
