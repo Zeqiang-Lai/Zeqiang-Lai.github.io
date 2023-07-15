@@ -16,18 +16,17 @@ Student, Beijing Institute of Technology <br/>
 
 ----
 
-I am a third year graduate student at Beijing Institute of Technology, advised by [Prof. Ying Fu](https://ying-fu.github.io/publication.html). Before that, I received my B.S. in Computer Science and Technology from Beijing Institute of Technology in 2020. I was fortunately to be advised by [Felix Heide](https://www.cs.princeton.edu/~fheide/) and closely work with [Kaixuan Wei](https://kxwei.net/) at Princeton University.
+I am a graduate student at Beijing Institute of Technology, advised by [Prof. Ying Fu](https://ying-fu.github.io/publication.html). Before that, I received my B.S. in Computer Science and Technology from Beijing Institute of Technology in 2020. I work closely with [Kaixuan Wei](https://kxwei.net/) advised by [Felix Heide](https://www.cs.princeton.edu/~fheide/) at Princeton University.
 
 My research interest lies in the optimization and computer vision. Previously, I primarily worked on diffusion models, proximal algorithm modeling, and image restoration. I also gained experience in some high-level vision tasks during the internship at [OpenGVLab](https://github.com/OpenGVLab), advised by [Wenhai Wang](https://whai362.github.io/).
-
-<!-- I will be graduated at July 2023 and open for job opportunity. -->
 
 ----
 
 ##### News
 
+- July 2023: 🎉 [HSDT](https://github.com/Zeqiang-Lai/HSDT) is accepted by ICCV 2023.
 - May 2023: 🔥 Released two funny demos at [Anything2Image](https://github.com/Zeqiang-Lai/Anything2Image) and [DragGAN](https://github.com/Zeqiang-Lai/DragGAN).
-<!-- - May 2023: 🎉 [Delta-Prox](https://github.com/princeton-computational-imaging/Delta-Prox) is accepted by SIGGRAPH TOG. -->
+- May 2023: 🎉 [Delta-Prox](https://github.com/princeton-computational-imaging/Delta-Prox) is accepted by SIGGRAPH TOG 2023.
 - Jan 2022: 📜 [DPHSIR](https://github.com/Zeqiang-Lai/DPHSIR) is accepted by Neurocomputing.
 
 ----
@@ -42,7 +41,7 @@ My research interest lies in the optimization and computer vision. Previously, I
 
 ##### Experiences
 
-- 2022-5 ~ Now: Research intern at [Shanghai AI laboratory](https://www.shlab.org.cn/), advised by [Wenhai Wang](https://whai362.github.io/).
+- 2022-5 ~ 2023-7: Research intern at [Shanghai AI laboratory](https://www.shlab.org.cn/), advised by [Wenhai Wang](https://whai362.github.io/).
 - 2019-7 ~ 2020-3: Algorithm intern at [Kuaishou Technology](https://www.kuaishou.com/en), Y-Tech.
 
 ----
