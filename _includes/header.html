@@ -15,6 +15,9 @@
               {%- if site.last_name -%}
                 {{- site.last_name -}}
               {%- endif -%}
+              {%- if site.cn_name -%}
+                <span class="cn-name"> ({{- site.cn_name -}}) </span>
+              {%- endif -%}
             {%- else -%}
               {{- site.title -}}
             {%- endif -%}
