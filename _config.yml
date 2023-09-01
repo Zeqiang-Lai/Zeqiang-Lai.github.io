@@ -6,6 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Zeqiang 
 middle_name: 
 last_name: Lai
+cn_name: 赖泽强
 email: laizeqiang@outlook.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Zeqiang Lai' Profile
@@ -322,7 +323,7 @@ jekyll-diagrams:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false  # enables google analytics
+enable_google_analytics:    true  # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
 enable_google_verification: false  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification
