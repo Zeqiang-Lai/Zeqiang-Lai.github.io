@@ -67,7 +67,7 @@
               [<a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>]
               {% endif %}
               {% if entry.html %}
-              [<a href="{{ entry.html }}" target="_blank">website</a>]
+              [<a href="{{ entry.html }}" target="_blank">Website</a>]
               {% endif %}
               {% if entry.pdf %}
               [<a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" target="_blank">PDF</a>]
@@ -82,13 +82,13 @@
               [<a href="{{ entry.slides | prepend: '/assets/slides/' | relative_url }}" target="_blank">slides</a>]
               {% endif %}
               {% if entry.code %}
-              [<a href="{{ entry.code }}" target="_blank">code</a>]
+              [<a href="{{ entry.code }}" target="_blank">Code</a>]
               {% endif %}
               {% if entry.blog %}
-              [<a href="{{ entry.blog }}" target="_blank">blog</a>]
+              [<a href="{{ entry.blog }}" target="_blank">Blog</a>]
               {% endif %}
               {% if entry.colab %}
-              [<a href="{{ entry.colab }}" target="_blank">colab</a>]
+              [<a href="{{ entry.colab }}" target="_blank">Colab</a>]
               {% endif %}
             </nobr>
       
