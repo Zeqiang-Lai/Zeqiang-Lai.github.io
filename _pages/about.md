@@ -20,7 +20,7 @@ I am a graduated student at Beijing Institute of Technology, advised by [Prof. Y
 
 My research interest lies in the optimization and computer vision. Previously, I primarily worked on diffusion models, proximal algorithm modeling, and image restoration. I also gained experience in some high-level vision tasks during the internship at [OpenGVLab](https://github.com/OpenGVLab), advised by [Wenhai Wang](https://whai362.github.io/).
 
-I am actively looking for full-time industry and phd positions, please reach me at [email](laizeqiang@outlook.com) if you are interested.
+I am actively looking for full-time industry and phd positions, reach me at [email](laizeqiang@outlook.com) if you are interested at my background.
 
 ----
 
