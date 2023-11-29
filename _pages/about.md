@@ -26,6 +26,8 @@ My research interest lies in the optimization and computer vision. Previously, I
 
 ##### News
 
+- Nov 2023: [HSI-RefSR](https://github.com/Zeqiang-Lai/HSI-RefSR) is accepted by TNNLS.
+- Nov 2023: [ControlLLM](https://arxiv.org/abs/2310.17796) is on arXiv.
 - Oct 2023: Checkout our investigation of DALLE3 at [Mini-DALLE3](https://minidalle3.github.io).
 - July 2023: 🎉 [HSDT](https://github.com/Zeqiang-Lai/HSDT) is accepted by ICCV 2023.
 - May 2023: 🔥 Released [Anything2Image](https://github.com/Zeqiang-Lai/Anything2Image) and replication of [DragGAN](https://github.com/Zeqiang-Lai/DragGAN).
@@ -44,6 +46,7 @@ My research interest lies in the optimization and computer vision. Previously, I
 
 ##### Experiences
 
+- 2023-7 ~ Now: Researcher at [iflytek Research](). 
 - 2022-5 ~ 2023-7: Research intern at [Shanghai AI laboratory](https://www.shlab.org.cn/), advised by [Wenhai Wang](https://whai362.github.io/).
 - 2019-7 ~ 2020-3: Algorithm intern at [Kuaishou Technology](https://www.kuaishou.com/en), Y-Tech.
 
