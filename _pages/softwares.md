@@ -27,7 +27,19 @@ nav_order: 2
     </tr>
   </thead>
   <tbody>
-  <tr>
+    <tr>
+      <th scope="row">Oct, 2023</th>
+      <td><b>ControlLLM: Augment Language Models with Tools by Searching on Graphs</b></td>
+      <td><a href="https://github.com/OpenGVLab/ControlLLM" target="_blank" rel="noopener noreferrer">ControlLLM</a></td>
+      <td><a class="github-button" href="https://github.com/OpenGVLab/ControlLLM" data-icon="octicon-star" data-show-count="true" aria-label="Star OpenGVLab/ControlLLM on GitHub" target="_blank" rel="noopener noreferrer">Star</a></td>
+    </tr>
+    <tr>
+      <th scope="row">Oct, 2023</th>
+      <td><b>Mini-DALLE3: Interactive Text to Image by Prompting Large Language Models</b></td>
+      <td><a href="https://github.com/Zeqiang-Lai/Mini-DALLE3" target="_blank" rel="noopener noreferrer">Mini-DALLE3</a></td>
+      <td><a class="github-button" href="https://github.com/Zeqiang-Lai/Mini-DALLE3" data-icon="octicon-star" data-show-count="true" aria-label="Star Zeqiang-Lai/Mini-DALLE3 on GitHub" target="_blank" rel="noopener noreferrer">Star</a></td>
+    </tr>
+    <tr>
       <th scope="row">May, 2023</th>
       <td><b>InternGPT: Solving Vision-Centric Tasks by Interacting with Chatbots Beyond Language</b></td>
       <td><a href="https://github.com/OpenGVLab/InternGPT" target="_blank" rel="noopener noreferrer">InternGPT</a></td>
