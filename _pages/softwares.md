@@ -103,6 +103,12 @@ nav_order: 2
   </thead>
   <tbody>
     <tr>
+      <th scope="row">April, 2024</th>
+      <td>OpenDMD</td>
+      <td><a href="https://github.com/Zeqiang-Lai/OpenDMD" target="_blank" rel="noopener noreferrer">OpenDMD</a></td>
+      <td><a class="github-button" href="https://github.com/Zeqiang-Lai/OpenDMD" data-icon="octicon-star" data-show-count="true" aria-label="Star Zeqiang-Lai/OpenDMD on GitHub" target="_blank" rel="noopener noreferrer">Star</a></td>
+    </tr>
+    <tr>
       <th scope="row">May, 2023</th>
       <td>DragGAN: Unofficial Implementation</td>
       <td><a href="https://github.com/Zeqiang-Lai/DragGAN" target="_blank" rel="noopener noreferrer">DragGAN</a></td>

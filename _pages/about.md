@@ -20,19 +20,21 @@ I am a graduated student at Beijing Institute of Technology, advised by [Prof. Y
 
 My research interest lies in the optimization and computer vision. Previously, I primarily worked on diffusion models, proximal algorithm modeling, and image restoration. I also gained experience in some high-level vision tasks during the internship at [OpenGVLab](https://github.com/OpenGVLab), advised by [Wenhai Wang](https://whai362.github.io/).
 
-<!-- I am actively looking for full-time industry and phd positions, reach me at [email](laizeqiang@outlook.com) if you are interested at my background. -->
-
 ----
 
 ##### News
 
+For Fun
+- Apr 2024: 🤗 Released [OpenDMD](https://github.com/Zeqiang-Lai/OpenDMD) - Open sourced one step diffusion model.
+- Oct 2023: 🎉 Checkout our investigation of DALLE3 at [Mini-DALLE3](https://minidalle3.github.io).
+- May 2023: 🔥 Released [Anything2Image](https://github.com/Zeqiang-Lai/Anything2Image) and replication of [DragGAN](https://github.com/Zeqiang-Lai/DragGAN).
+
+Research
 - Nov 2023: [HSI-RefSR](https://github.com/Zeqiang-Lai/HSI-RefSR) is accepted by TNNLS.
 - Nov 2023: [ControlLLM](https://arxiv.org/abs/2310.17796) is on arXiv.
-- Oct 2023: Checkout our investigation of DALLE3 at [Mini-DALLE3](https://minidalle3.github.io).
-- July 2023: 🎉 [HSDT](https://github.com/Zeqiang-Lai/HSDT) is accepted by ICCV 2023.
-- May 2023: 🔥 Released [Anything2Image](https://github.com/Zeqiang-Lai/Anything2Image) and replication of [DragGAN](https://github.com/Zeqiang-Lai/DragGAN).
-- May 2023: 🎉 [Delta-Prox](https://github.com/princeton-computational-imaging/Delta-Prox) is accepted by SIGGRAPH TOG 2023.
-- Jan 2022: 📜 [DPHSIR](https://github.com/Zeqiang-Lai/DPHSIR) is accepted by Neurocomputing.
+- Jul 2023: [HSDT](https://github.com/Zeqiang-Lai/HSDT) is accepted by ICCV 2023.
+- May 2023: [Delta-Prox](https://github.com/princeton-computational-imaging/Delta-Prox) is accepted by SIGGRAPH TOG 2023.
+- Jan 2022: [DPHSIR](https://github.com/Zeqiang-Lai/DPHSIR) is accepted by Neurocomputing.
 
 ----
 
