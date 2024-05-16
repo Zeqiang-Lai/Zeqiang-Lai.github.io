@@ -25,6 +25,7 @@ My research interest lies in the optimization and computer vision. Previously, I
 ##### News
 
 For Fun
+- May 2024: 🌻 Released [MuLan](https://github.com/mulanai/MuLan) - Make your diffusion model multilingual without training.
 - Apr 2024: 🤗 Released [OpenDMD](https://github.com/Zeqiang-Lai/OpenDMD) - Open sourced one step diffusion model.
 - Oct 2023: 🎉 Checkout our investigation of DALLE3 at [Mini-DALLE3](https://minidalle3.github.io).
 - May 2023: 🔥 Released [Anything2Image](https://github.com/Zeqiang-Lai/Anything2Image) and replication of [DragGAN](https://github.com/Zeqiang-Lai/DragGAN).
