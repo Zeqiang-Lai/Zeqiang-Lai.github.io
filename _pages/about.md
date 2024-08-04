@@ -31,8 +31,8 @@ For Fun
 - May 2023: 🔥 Released [Anything2Image](https://github.com/Zeqiang-Lai/Anything2Image) and replication of [DragGAN](https://github.com/Zeqiang-Lai/DragGAN).
 
 Research
+- July 2024: [ControlLLM](https://arxiv.org/abs/2310.17796) is accepted by ECCV 2024.
 - Nov 2023: [HSI-RefSR](https://github.com/Zeqiang-Lai/HSI-RefSR) is accepted by TNNLS.
-- Nov 2023: [ControlLLM](https://arxiv.org/abs/2310.17796) is on arXiv.
 - Jul 2023: [HSDT](https://github.com/Zeqiang-Lai/HSDT) is accepted by ICCV 2023.
 - May 2023: [Delta-Prox](https://github.com/princeton-computational-imaging/Delta-Prox) is accepted by SIGGRAPH TOG 2023.
 - Jan 2022: [DPHSIR](https://github.com/Zeqiang-Lai/DPHSIR) is accepted by Neurocomputing.
