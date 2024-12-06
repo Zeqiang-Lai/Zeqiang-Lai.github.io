@@ -9,17 +9,16 @@ social: true
 years: [2023, 2022, 2021]
 ---
 
-Researcher<br/>
-Hunyun, Tencent<br/>
+Master in Computer Science <br/>
+Student, Beijing Institute of Technology <br/>
 <a href="assets/pdf/Zeqiang_Lai_Curriculum_Vitae_2023_8.pdf" target="_blank"><b>Curriculum Vitae</b></a> |
 <a href="https://zeqiang-lai.github.io/blog/" target="_blank"><b>Blog</b></a>
 
 ----
 
-I am a researcher at Hunyun, Tencent. Previously, I obtained my master degree at Beijing Institute of Technology, advised by [Prof. Ying Fu](https://ying-fu.github.io/publication.html). Before that, I received my B.S. in Computer Science and Technology from Beijing Institute of Technology in 2020. 
-<!-- I also work closely with [Kaixuan Wei](https://kxwei.net/) advised by [Felix Heide](https://www.cs.princeton.edu/~fheide/) at Princeton University. -->
+I am a graduated student at Beijing Institute of Technology, advised by [Prof. Ying Fu](https://ying-fu.github.io/publication.html). Before that, I received my B.S. in Computer Science and Technology from Beijing Institute of Technology in 2020. 
 
-My research interest lies in the generative models, optimization and computer vision. Previously, I primarily worked on diffusion models, proximal algorithm modeling, and image restoration. I also gained experience in some high-level vision tasks during the internship at [OpenGVLab](https://github.com/OpenGVLab), advised by [Wenhai Wang](https://whai362.github.io/).
+My research interest lies in the optimization and computer vision. Previously, I primarily worked on diffusion models, proximal algorithm modeling, and image restoration. I also gained experience in some high-level vision tasks during the internship at [OpenGVLab](https://github.com/OpenGVLab), advised by [Wenhai Wang](https://whai362.github.io/).
 
 ----
 
@@ -32,7 +31,6 @@ For Fun
 - May 2023: 🔥 Released [Anything2Image](https://github.com/Zeqiang-Lai/Anything2Image) and replication of [DragGAN](https://github.com/Zeqiang-Lai/DragGAN).
 
 Research
-- Oct 2024: [VisionLLM-v2](https://arxiv.org/abs/2406.08394) is accepted by NeurIPS 2024.
 - July 2024: [ControlLLM](https://arxiv.org/abs/2310.17796) is accepted by ECCV 2024.
 - Nov 2023: [HSI-RefSR](https://github.com/Zeqiang-Lai/HSI-RefSR) is accepted by TNNLS.
 - Jul 2023: [HSDT](https://github.com/Zeqiang-Lai/HSDT) is accepted by ICCV 2023.
@@ -51,8 +49,7 @@ Research
 
 ##### Experiences
 
-- 2024-1 ~ Now: Researcher at Hunyun [Tencent]().
-- 2023-7 ~ 2023-12: Researcher at [iflytek Research](). 
+<!-- - 2023-7 ~ Now: Researcher at [iflytek Research]().  -->
 - 2022-5 ~ 2023-7: Research intern at [Shanghai AI laboratory](https://www.shlab.org.cn/), advised by [Wenhai Wang](https://whai362.github.io/).
 - 2019-7 ~ 2020-3: Algorithm intern at [Kuaishou Technology](https://www.kuaishou.com/en), Y-Tech.
 
