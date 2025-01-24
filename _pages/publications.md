@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: The year indicates the time when the work is mostly finished.
+description: The year indicates the time when the work is mostly finished. <br> * indicates equal contribution.
 years: [2025,2024,2023,2022,2021]
 nav: true
 nav_order: 1
