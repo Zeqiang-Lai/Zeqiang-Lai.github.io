@@ -9,28 +9,28 @@ social: true
 years: [2023, 2022, 2021]
 ---
 
-Master in Computer Science <br/>
-Student, Beijing Institute of Technology <br/>
+Ph.D., Computer Science <br/>
+Student, Chinese University of Hong Kong <br/>
 <a href="assets/pdf/Zeqiang_Lai_Curriculum_Vitae_2023_8.pdf" target="_blank"><b>Curriculum Vitae</b></a> |
 <a href="https://zeqiang-lai.github.io/blog/" target="_blank"><b>Blog</b></a>
 
 ----
 
-I am a graduated student at Beijing Institute of Technology, advised by [Prof. Ying Fu](https://ying-fu.github.io/publication.html). Before that, I received my B.S. in Computer Science and Technology from Beijing Institute of Technology in 2020. 
+I am a Ph.D. student at MMLab, Chinese University of Hong Kong, advised by [Prof. Xiangyu Yue](https://xyue.io/). Previously, I am a researcher at Tencent Hunyuan. Before that, I received my master and B.S. in Computer Science and Technology from Beijing Institute of Technology in 2023 and 2020, advised by [Prof. Ying Fu](https://ying-fu.github.io/publication.html).
 
-My research interest lies in the optimization and computer vision. Previously, I primarily worked on diffusion models, proximal algorithm modeling, and image restoration. I also gained experience in some high-level vision tasks during the internship at [OpenGVLab](https://github.com/OpenGVLab), advised by [Wenhai Wang](https://whai362.github.io/).
+My current research focus on the generative models, especially 3D foundation models, e.g. [Hunyuan3D-2](https://github.com/Tencent/Hunyuan3D-2). Previously, I primarily worked on diffusion models, proximal algorithm modeling, and image restoration. I also gained experience in some high-level vision tasks during the internship at [OpenGVLab](https://github.com/OpenGVLab), advised by [Wenhai Wang](https://whai362.github.io/).
 
 ----
 
 ##### News
 
-For Fun
+For Fun (Outdated)
 - May 2024: 🌻 Released [MuLan](https://github.com/mulanai/MuLan) - Make your diffusion model multilingual without training.
 - Apr 2024: 🤗 Released [OpenDMD](https://github.com/Zeqiang-Lai/OpenDMD) - Open sourced one step diffusion model.
 - Oct 2023: 🎉 Checkout our investigation of DALLE3 at [Mini-DALLE3](https://minidalle3.github.io).
 - May 2023: 🔥 Released [Anything2Image](https://github.com/Zeqiang-Lai/Anything2Image) and replication of [DragGAN](https://github.com/Zeqiang-Lai/DragGAN).
 
-Research
+Research (Outdated)
 - July 2024: [ControlLLM](https://arxiv.org/abs/2310.17796) is accepted by ECCV 2024.
 - Nov 2023: [HSI-RefSR](https://github.com/Zeqiang-Lai/HSI-RefSR) is accepted by TNNLS.
 - Jul 2023: [HSDT](https://github.com/Zeqiang-Lai/HSDT) is accepted by ICCV 2023.
@@ -49,9 +49,11 @@ Research
 
 ##### Experiences
 
-<!-- - 2023-7 ~ Now: Researcher at [iflytek Research]().  -->
-- 2022-5 ~ 2023-7: Research intern at [Shanghai AI laboratory](https://www.shlab.org.cn/), advised by [Wenhai Wang](https://whai362.github.io/).
-- 2019-7 ~ 2020-3: Algorithm intern at [Kuaishou Technology](https://www.kuaishou.com/en), Y-Tech.
+- 2025 ~ Now: Research Intern at [Tencent Hunyuan](). 
+- 2024 ~ 2025: Researcher at [Tencent Hunyuan](). 
+- 2023 ~ 2024: Researcher at [iflytek Research](). 
+- 2022 ~ 2023: Research intern at OpenGVLab, [Shanghai AI laboratory](https://www.shlab.org.cn/), advised by [Wenhai Wang](https://whai362.github.io/).
+- 2019 ~ 2020: Algorithm intern at [Kuaishou Technology](https://www.kuaishou.com/en), Y-Tech.
 
 ----
 
