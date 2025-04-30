@@ -22,6 +22,7 @@ My current research focus on the generative models, especially 3D foundation mod
 
 
 If you want to do high-quality research and build the next-generation 3D generation platform and looking for an internship at *Tencent Hunyuan3D*, please send email to [laizeqiang@outlook.com]().
+
 ----
 
 ##### News
