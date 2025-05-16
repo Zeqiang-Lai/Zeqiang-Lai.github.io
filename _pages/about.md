@@ -9,7 +9,7 @@ social: true
 years: [2023, 2022, 2021]
 ---
 
-Ph.D., Computer Science <br/>
+Ph.D., Information Engineering <br/>
 Student, Chinese University of Hong Kong <br/>
 <a href="assets/pdf/Zeqiang_Lai_Curriculum_Vitae_2023_8.pdf" target="_blank"><b>Curriculum Vitae</b></a> |
 <a href="https://zeqiang-lai.github.io/blog/" target="_blank"><b>Blog</b></a>
