@@ -25,23 +25,6 @@ If you are looking for an internship at *Tencent Hunyuan3D*, you could send emai
 
 ----
 
-##### News
-
-For Fun (Outdated)
-- May 2024: 🌻 Released [MuLan](https://github.com/mulanai/MuLan) - Make your diffusion model multilingual without training.
-- Apr 2024: 🤗 Released [OpenDMD](https://github.com/Zeqiang-Lai/OpenDMD) - Open sourced one step diffusion model.
-- Oct 2023: 🎉 Checkout our investigation of DALLE3 at [Mini-DALLE3](https://minidalle3.github.io).
-- May 2023: 🔥 Released [Anything2Image](https://github.com/Zeqiang-Lai/Anything2Image) and replication of [DragGAN](https://github.com/Zeqiang-Lai/DragGAN).
-
-Research (Outdated)
-- July 2024: [ControlLLM](https://arxiv.org/abs/2310.17796) is accepted by ECCV 2024.
-- Nov 2023: [HSI-RefSR](https://github.com/Zeqiang-Lai/HSI-RefSR) is accepted by TNNLS.
-- Jul 2023: [HSDT](https://github.com/Zeqiang-Lai/HSDT) is accepted by ICCV 2023.
-- May 2023: [Delta-Prox](https://github.com/princeton-computational-imaging/Delta-Prox) is accepted by SIGGRAPH TOG 2023.
-- Jan 2022: [DPHSIR](https://github.com/Zeqiang-Lai/DPHSIR) is accepted by Neurocomputing.
-
-----
-
 ##### Selected Publications
 
 <div class="publications about_pub">
@@ -55,21 +38,15 @@ Research (Outdated)
 - 2025 ~ Now: Research Intern at [Tencent Hunyuan](). 
 - 2024 ~ 2025: Researcher at [Tencent Hunyuan](). 
 - 2023 ~ 2024: Researcher at [iflytek Research](). 
-- 2022 ~ 2023: Research intern at OpenGVLab, [Shanghai AI laboratory](https://www.shlab.org.cn/), advised by [Wenhai Wang](https://whai362.github.io/).
-- 2019 ~ 2020: Algorithm intern at [Kuaishou Technology](https://www.kuaishou.com/en), Y-Tech.
-
-----
-
-##### Services
-
-**Journal reviewer**: TIP / TGRS
-
-**Conference reviewer**: CVPR 2022 / ICCV 2021 / PBDL 2021 / ACMMM 2021
+- 2022 ~ 2023: Research Intern at OpenGVLab, [Shanghai AI laboratory](https://www.shlab.org.cn/).
+- 2019 ~ 2020: Algorithm Intern at [Kuaishou Technology](https://www.kuaishou.com/en), Y-Tech.
 
 ----
 
 ##### Awards
 
+- [Doctoral Research Incentive Program by the Chinese Institute of Electronics and Tencent](https://ur.tencent.com/article/1503) (2025)
+- Hong Kong Postgraduate Scholarships (2025)
 - National Scholarship China (2022)
 - Academic Scholarship of Beijing Institute of Technology (2020,2022)
 - Honorable Mention, Interdisciplinary Contest in Modeling (2019)
