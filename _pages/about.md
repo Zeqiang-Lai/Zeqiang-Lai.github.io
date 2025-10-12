@@ -25,7 +25,7 @@ If you are looking for an internship at *Tencent Hunyuan3D*, you could send emai
 
 ----
 
-##### Selected Publications
+##### Selected Publications/Preprints
 
 <div class="publications about_pub">
   {% bibliography -f papers -q @*[selected=true]* %}
