@@ -7,12 +7,11 @@ description:
 news: true
 social: true
 years: [2023, 2022, 2021]
----
 
-Ph.D., Information Engineering <br/>
-Student, Chinese University of Hong Kong <br/>
-<a href="assets/pdf/Zeqiang_Lai_Curriculum_Vitae_2023_8.pdf" target="_blank"><b>Curriculum Vitae</b></a> |
-<a href="https://zeqiang-lai.github.io/blog/" target="_blank"><b>Blog</b></a>
+profile:
+  align: right
+  image: prof_pic2.jpg
+---
 
 ----
 
@@ -24,6 +23,13 @@ My current research focus on the generative models, especially 3D foundation mod
 If you are looking for an internship at *Tencent Hunyuan3D*, you could send email to [laizeqiang@outlook.com]().
 
 ----
+
+##### Selected Reports
+
+<div class="publications about_pub">
+  {% bibliography -f papers -q @*[selected_report=true]* %}
+</div>
+
 
 ##### Selected Publications
 

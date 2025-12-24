@@ -5,22 +5,55 @@ layout: default
 <div class="post">
 
   <article>
+    <div class="row" style="padding-bottom: 10px;">
+      <div class="col-sm-9">
+        Ph.D., Information Engineering <br/>
+Student, Chinese University of Hong Kong <br/>
+<a href="assets/pdf/Zeqiang_Lai_Curriculum_Vitae_2023_8.pdf" target="_blank"><b>Curriculum Vitae</b></a> |
+<a href="https://zeqiang-lai.github.io/blog/" target="_blank"><b>Blog</b></a>
+
+
+<br/>
+<br/>
+
+🎉 Checkout our latest works: 
+<ul style="margin-top: 5px;">
+<li>
+    <a href="https://lattice3d.github.io/" target="_blank">LATTICE</a>:
+    a revolutionary 3D geometry generation model
+  </li>
+  <li>
+    <a href="https://natex-ldm.github.io/" target="_blank">NaTex</a>:
+    a native texture generation model
+  </li>
+</ul>
+
+      </div>
+
+        <div class="col-sm-3">
+
+        {%- if page.profile.image %}
+        {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+
+        {% if page.profile.image_circular %}
+        {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+        {% else %}
+        {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+        {% endif %}
+
+        {% include figure.html
+        path=profile_image_path
+        class=profile_image_class
+        alt=page.profile.image -%}
+        {% endif -%}
+
+      </div>
+    </div>
+
     <div class="row">
       <div class="col">
         {{ content }}
       </div>
-        {% if page.profile %}
-        <div class="profile col-4 {% if page.profile.align == 'left' %}order-first{% endif %}">
-          {% if page.profile.image %}
-            <img class="img-fluid z-depth-1 rounded" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}">
-          {% endif %}
-          {% if page.profile.address %}
-            <div class="address">
-              {{ page.profile.address }}
-            </div>
-          {% endif %}
-        </div>
-        {% endif %}
     </div>
 
   </article>
