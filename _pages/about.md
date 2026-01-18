@@ -51,7 +51,7 @@ If you are looking for an internship at *Tencent Hunyuan3D*, you could send emai
 
 ##### Awards
 
-- [Doctoral Research Incentive Program by the Chinese Institute of Electronics and Tencent](https://ur.tencent.com/article/1509) (2025)
+- [CIE–Tencent Doctoral Research Fellowship](https://ur.tencent.com/article/1509) (2025)
 - Hong Kong Postgraduate Scholarships (2025)
 - National Scholarship China (2022)
 - Academic Scholarship of Beijing Institute of Technology (2020,2022)
