@@ -20,7 +20,7 @@ I am a Ph.D. student at MMLab, the Chinese University of Hong Kong, advised by [
 My current research focus on the generative models, especially 3D foundation models, e.g. [Hunyuan3D-2](https://github.com/Tencent/Hunyuan3D-2), [Hunyuan3D-2.5](https://arxiv.org/abs/2506.16504), and [Hunyuan3D-3.0](assets/pdf/Hunyuan3D_3_0_System_Card.pdf). Previously, I primarily worked on diffusion models, proximal algorithm modeling, and image restoration. I also gained experience in some high-level vision tasks during the internship at [OpenGVLab](https://github.com/OpenGVLab), advised by [Wenhai Wang](https://whai362.github.io/).
 
 
-If you are looking for an internship at *Tencent Hunyuan3D*, you could send email to [laizeqiang@outlook.com]().
+If you are interested in an internship at *Tencent Hunyuan3D*, you can send an email to laizeqiang@outlook.com.
 
 ----
 
