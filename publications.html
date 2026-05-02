@@ -20,7 +20,7 @@
         .pub-page {
             max-width: 800px;
             margin: 0 auto;
-            padding: 4rem 2.5rem 3rem;
+            padding: 4.5rem 2.5rem 3rem;
         }
 
         .pub-page-header {
@@ -43,7 +43,7 @@
         }
 
         .pub-page-header h1 {
-            font-size: 1.5rem;
+            font-size: 1.35rem;
             font-weight: 600;
             letter-spacing: -0.025em;
             color: #f0f0f0;
@@ -61,15 +61,15 @@
         .pub-toggle {
             display: flex;
             gap: 0.5rem;
-            margin-bottom: 2.5rem;
+            margin-bottom: 2rem;
         }
 
         .pub-toggle button {
             font-family: 'JetBrains Mono', monospace;
-            font-size: 0.67rem;
+            font-size: 0.7rem;
             text-transform: uppercase;
             letter-spacing: 0.08em;
-            padding: 0.3rem 0.75rem;
+            padding: 0.35rem 0.85rem;
             border: 1px solid rgba(255, 255, 255, 0.08);
             border-radius: 3px;
             background: transparent;
@@ -92,12 +92,12 @@
         /* Year heading */
         .year-heading {
             font-family: 'JetBrains Mono', monospace;
-            font-size: 0.82rem;
+            font-size: 0.78rem;
             font-weight: 500;
             color: #444;
             margin-top: 2.5rem;
-            margin-bottom: 1rem;
-            padding-bottom: 0.45rem;
+            margin-bottom: 0.8rem;
+            padding-bottom: 0.4rem;
             border-bottom: 1px solid rgba(255, 255, 255, 0.04);
             line-height: 1.2;
         }
@@ -108,7 +108,7 @@
 
         /* Publication item overrides for this page */
         .pub-page .pub-item {
-            padding: 1.1rem 0;
+            padding: 1.2rem 0;
         }
 
         .pub-page .pub-title a {
@@ -134,18 +134,35 @@
             color: #666;
             font-style: italic;
             line-height: 1.4;
+            margin-top: 0.15rem;
+            margin-bottom: 0.35rem;
+        }
+
+        .pub-page .pub-contrib.lead {
+            font-style: normal;
+            font-weight: 500;
+            color: #c0c0c0;
+            font-size: 0.68rem;
+            letter-spacing: 0.04em;
+        }
+
+        .pub-page .pub-contrib.lead::before {
+            content: '†';
+            margin-right: 0.3em;
+            font-size: 0.72rem;
+            color: #7c8aff;
         }
 
         @media (max-width: 768px) {
             .pub-page {
-                padding: 3rem 1.5rem 2rem;
+                padding: 3.5rem 1.5rem 2rem;
             }
         }
 
         .scholar-note {
             font-size: 0.76rem;
             color: #555;
-            margin-top: 0.35rem;
+            margin-top: 0.5rem;
             line-height: 1.5;
         }
 
@@ -166,7 +183,7 @@
             <a href="index.html" class="back-link">← Back</a>
             <h1>Publications</h1>
             <p class="pub-note">
-                * equal contribution · † project lead · # corresponding author
+                * equal contribution · # corresponding author
             </p>
             <p class="scholar-note">
                 For a full list, please visit my <a href="https://scholar.google.com/citations?user=WUMu1KkAAAAJ">Google Scholar</a> profile.
@@ -188,7 +205,6 @@
                     <span class="pub-venue">Preprint</span>
                 </div>
                 <h3 class="pub-title"><a href="https://arxiv.org/abs/2602.03907">HY3D-Bench: Generation of 3D Assets</a></h3>
-                <p class="pub-meta">arXiv:2602.03907</p>
                 <p class="pub-contrib">Contributor</p>
                 <div class="pub-links">
                     <a href="https://github.com/Tencent-Hunyuan/HY3D-Bench">code ↗</a>
@@ -200,6 +216,7 @@
                     <span class="pub-venue">ICML 2026</span>
                 </div>
                 <h3 class="pub-title"><a href="https://arxiv.org/abs/2602.13993">Elastic Diffusion Transformer</a></h3>
+                <p class="pub-contrib lead">Project Lead</p>
                 <div class="pub-authors">J. Wang, <strong>Z. Lai</strong><sup>†</sup>, J. Chen, J. Guo, H. Guo, X. Li, X. Yue, and C. Guo</div>
                 <div class="pub-links">
                     <a href="https://github.com/wangjiangshan0725/Elastic-DiT">code ↗</a>
@@ -239,7 +256,6 @@
                     <span class="pub-venue">Preprint</span>
                 </div>
                 <h3 class="pub-title"><a href="https://arxiv.org/abs/2509.21245">Hunyuan3D-Omni: A Unified Framework for Controllable Generation of 3D Assets</a></h3>
-                <p class="pub-meta">arXiv:2509.21245</p>
                 <p class="pub-contrib">Contributor</p>
                 <div class="pub-links">
                     <a href="https://github.com/Tencent-Hunyuan/Hunyuan3D-Omni">code ↗</a>
@@ -251,7 +267,6 @@
                     <span class="pub-venue">Preprint</span>
                 </div>
                 <h3 class="pub-title"><a href="https://arxiv.org/abs/2509.12815">Hunyuan3D Studio: End-to-End AI Pipeline for Game-Ready 3D Asset Generation</a></h3>
-                <p class="pub-meta">arXiv:2509.12815</p>
                 <p class="pub-contrib">Core contributor for shape generation and poly generation</p>
             </article>
 
@@ -260,6 +275,7 @@
                     <span class="pub-venue">Preprint</span>
                 </div>
                 <h3 class="pub-title">Hunyuan3D 3.0: System Card</h3>
+                <p class="pub-contrib lead">Project Lead</p>
                 <div class="pub-authors"><strong>Z. Lai</strong><sup>†</sup>, Y. Zhao, H. Liu, Z. Zhao, Q. Lin, Z. Liang, B. Zhang, X. Yang, Y. Huang, X. Huang, L. Wang, X. Yang, K. Zhang, F. Yang, L. Wang, S. Liu, Y. Tang, Y. Cai, T. Liu, Y. Liu, J. Jiang, Linus, and C. Guo</div>
             </article>
 
@@ -279,7 +295,7 @@
                     <span class="pub-venue">Preprint</span>
                 </div>
                 <h3 class="pub-title"><a href="https://arxiv.org/abs/2506.16504">Hunyuan3D 2.5: Towards High-Fidelity 3D Assets Generation with Ultimate Details</a></h3>
-                <p class="pub-meta">arXiv:2506.16504</p>
+                <p class="pub-contrib lead">Project Lead</p>
                 <div class="pub-authors"><strong>Z. Lai</strong>*<sup>†</sup>, Y. Zhao*, H. Liu*, Z. Zhao, Q. Lin, H. Shi, X. Yang, M. Yang*, S. Yang*, Y. Feng*, S. Zhang, X. Huang, D. Luo, F. Yang, F. Yang, L. Wang, S. Liu, Y. Tang, Y. Cai, Z. He, T. Liu, Y. Liu, J. Jiang, Linus, J. Huang, and C. Guo</div>
                 <div class="pub-links">
                     <a href="https://github.com/Zeqiang-Lai/LATTICE">code ↗</a>
@@ -291,7 +307,6 @@
                     <span class="pub-venue">Preprint</span>
                 </div>
                 <h3 class="pub-title"><a href="https://arxiv.org/abs/2506.15442">Hunyuan3D 2.1: From Images to High-Fidelity 3D Assets with Production-Ready PBR Material</a></h3>
-                <p class="pub-meta">arXiv:2506.15442</p>
                 <p class="pub-contrib">Core contributor for shape generation</p>
                 <div class="pub-links">
                     <a href="https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1">code ↗</a>
@@ -315,7 +330,7 @@
                     <span class="pub-venue">Preprint</span>
                 </div>
                 <h3 class="pub-title"><a href="https://arxiv.org/abs/2501.12202">Hunyuan3D 2.0: Scaling Diffusion Models for High Resolution Textured 3D Assets Generation</a></h3>
-                <p class="pub-meta">arXiv:2501.12202</p>
+                <p class="pub-contrib">Core contributor</p>
                 <div class="pub-authors">Z. Zhao*, <strong>Z. Lai</strong>*, Q. Lin*, Y. Zhao*, H. Liu, S. Yang*, Y. Feng*, M. Yang*, S. Zhang*, X. Yang, H. Shi, S. Liu, et al.</div>
                 <div class="pub-links">
                     <a href="https://3d-models.hunyuan.tencent.com/">website ↗</a>
@@ -390,7 +405,6 @@
                     <span class="pub-venue">Preprint</span>
                 </div>
                 <h3 class="pub-title"><a href="https://arxiv.org/abs/2310.07653">Mini-DALLE3: Interactive Text to Image by Prompting Large Language Models</a></h3>
-                <p class="pub-meta">arXiv:2310.07653</p>
                 <div class="pub-authors"><strong>Z. Lai</strong>, X. Zhu, J. Dai, Y. Qiao, and W. Wang</div>
                 <div class="pub-links">
                     <a href="https://minidalle3.github.io/">website ↗</a>
@@ -416,7 +430,6 @@
                     <span class="pub-venue">Preprint</span>
                 </div>
                 <h3 class="pub-title"><a href="https://arxiv.org/abs/2305.05662">InternGPT: Solving Vision-Centric Tasks by Interacting with ChatGPT Beyond Language</a></h3>
-                <p class="pub-meta">arXiv:2305.05662</p>
                 <div class="pub-authors">Z. Liu*, Y. He*, W. Wang*, W. Wang*, Y. Wang*, S. Chen*, Q. Zhang*, <strong>Z. Lai</strong>*, Y. Yang, Q. Li, J. Yu, K. Li, et al.</div>
                 <div class="pub-links">
                     <a href="https://igpt.opengvlab.com/">website ↗</a>
@@ -429,7 +442,6 @@
                     <span class="pub-venue">Preprint</span>
                 </div>
                 <h3 class="pub-title"><a href="https://arxiv.org/abs/2306.01721">Denoising Diffusion Semantic Segmentation with Mask Prior Modeling</a></h3>
-                <p class="pub-meta">arXiv:2306.01721</p>
                 <div class="pub-authors"><strong>Z. Lai</strong>*, Y. Duan*, J. Dai, Z. Li, Y. Fu, H. Li, Y. Qiao, and W. Wang</div>
                 <div class="pub-links">
                     <a href="https://github.com/OpenGVLab/DDPS">code ↗</a>
@@ -455,7 +467,6 @@
                     <span class="pub-venue">Preprint</span>
                 </div>
                 <h3 class="pub-title"><a href="https://arxiv.org/abs/2301.11525">Mixed Attention Network for Hyperspectral Image Denoising</a></h3>
-                <p class="pub-meta">arXiv:2301.11525</p>
                 <div class="pub-authors"><strong>Z. Lai</strong> and Y. Fu</div>
                 <div class="pub-links">
                     <a href="https://github.com/Zeqiang-Lai/MAN">code ↗</a>
