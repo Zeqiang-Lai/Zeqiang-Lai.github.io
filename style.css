@@ -149,10 +149,19 @@ body {
 }
 
 .bio {
-    font-size: 0.88rem;
-    color: var(--text-muted);
-    line-height: 1.6;
-    margin-bottom: 0.8rem;
+    font-size: 1.15rem;
+    font-weight: 400;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+    margin-top: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.bio em {
+    font-style: normal;
+    color: var(--accent);
+    font-weight: 500;
 }
 
 .affiliation {
@@ -276,7 +285,7 @@ body {
 }
 
 .pub-item {
-    padding: 1.35rem 0;
+    padding: 1.2rem 0;
 }
 
 .pub-item:first-child {
@@ -333,7 +342,7 @@ body {
     font-size: 0.82rem;
     color: var(--text-subtle);
     line-height: 1.55;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0;
 }
 
 .pub-authors strong {
