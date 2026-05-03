@@ -1,3 +1,62 @@
+/* ===== Theme Variables ===== */
+:root {
+    --bg: #0a0a0a;
+    --text: #c8c8c8;
+    --text-heading: #f0f0f0;
+    --text-secondary: #e0e0e0;
+    --text-muted: #777;
+    --text-subtle: #666;
+    --text-dim: #555;
+    --text-author-strong: #bbb;
+    --text-affiliation-link: #888;
+    --accent: #7c8aff;
+    --accent-hover: #a0aaff;
+    --accent-em: #a78bfa;
+    --border: rgba(255, 255, 255, 0.06);
+    --border-subtle: rgba(255, 255, 255, 0.04);
+    --border-toggle: rgba(255, 255, 255, 0.08);
+    --border-toggle-hover: rgba(255, 255, 255, 0.15);
+    --border-toggle-active: rgba(255, 255, 255, 0.2);
+    --toggle-active-bg: rgba(255, 255, 255, 0.04);
+    --badge-bg: rgba(124, 138, 255, 0.06);
+    --badge-border: rgba(124, 138, 255, 0.15);
+    --photo-overlay: rgba(10, 10, 10, 0.3);
+    --img-grayscale: 15%;
+    --name-cn: #999;
+    --footer-text: #333;
+    --year-heading: #444;
+    --contrib-lead: #c0c0c0;
+}
+
+[data-theme="light"] {
+    --bg: #f7f7f5;
+    --text: #333;
+    --text-heading: #111;
+    --text-secondary: #222;
+    --text-muted: #666;
+    --text-subtle: #777;
+    --text-dim: #888;
+    --text-author-strong: #222;
+    --text-affiliation-link: #555;
+    --accent: #4050c8;
+    --accent-hover: #2e3ba8;
+    --accent-em: #6b48b0;
+    --border: rgba(0, 0, 0, 0.12);
+    --border-subtle: rgba(0, 0, 0, 0.08);
+    --border-toggle: rgba(0, 0, 0, 0.18);
+    --border-toggle-hover: rgba(0, 0, 0, 0.28);
+    --border-toggle-active: rgba(0, 0, 0, 0.35);
+    --toggle-active-bg: rgba(0, 0, 0, 0.06);
+    --badge-bg: rgba(64, 80, 200, 0.1);
+    --badge-border: rgba(64, 80, 200, 0.25);
+    --photo-overlay: rgba(247, 247, 245, 0.3);
+    --img-grayscale: 5%;
+    --name-cn: #555;
+    --footer-text: #999;
+    --year-heading: #888;
+    --contrib-lead: #333;
+}
+
 /* ===== Reset & Base ===== */
 * {
     margin: 0;
@@ -13,10 +72,11 @@ body {
     font-family: 'General Sans', -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: 15px;
     line-height: 1.65;
-    color: #c8c8c8;
-    background: #0a0a0a;
+    color: var(--text);
+    background: var(--bg);
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
+    transition: background 0.3s ease, color 0.3s ease;
 }
 
 /* ===== Page ===== */
@@ -57,7 +117,7 @@ body {
     left: 0;
     right: 0;
     height: 40%;
-    background: linear-gradient(to top, rgba(10, 10, 10, 0.3), transparent);
+    background: linear-gradient(to top, var(--photo-overlay), transparent);
     pointer-events: none;
 }
 
@@ -66,7 +126,7 @@ body {
     height: 100%;
     object-fit: cover;
     display: block;
-    filter: grayscale(15%);
+    filter: grayscale(var(--img-grayscale));
 }
 
 .identity {
@@ -77,7 +137,7 @@ body {
     font-size: 1.55rem;
     font-weight: 600;
     letter-spacing: -0.025em;
-    color: #f0f0f0;
+    color: var(--text-heading);
     margin-bottom: 0.5rem;
     line-height: 1.2;
 }
@@ -85,31 +145,31 @@ body {
 .name-cn {
     font-weight: 400;
     font-size: 0.85em;
-    color: #999;
+    color: var(--name-cn);
 }
 
 .bio {
     font-size: 0.88rem;
-    color: #777;
+    color: var(--text-muted);
     line-height: 1.6;
     margin-bottom: 0.8rem;
 }
 
 .affiliation {
     font-size: 0.8rem;
-    color: #666;
+    color: var(--text-subtle);
     line-height: 1.5;
     margin-bottom: 1.2rem;
 }
 
 .affiliation a {
-    color: #888;
+    color: var(--text-affiliation-link);
     text-decoration: none;
     transition: color 0.2s ease;
 }
 
 .affiliation a:hover {
-    color: #7c8aff;
+    color: var(--accent);
 }
 
 .links {
@@ -122,13 +182,13 @@ body {
     font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    color: #666;
+    color: var(--text-subtle);
     text-decoration: none;
     transition: color 0.2s ease;
 }
 
 .links a:hover {
-    color: #7c8aff;
+    color: var(--accent);
 }
 
 /* ===== Main Content (Right) ===== */
@@ -148,28 +208,28 @@ body {
     font-size: 0.72rem;
     text-transform: uppercase;
     letter-spacing: 0.12em;
-    color: #555;
+    color: var(--text-dim);
     white-space: nowrap;
 }
 
 .section-line {
     flex: 1;
     height: 1px;
-    background: rgba(255, 255, 255, 0.06);
+    background: var(--border);
 }
 
 .section-link {
     font-size: 0.72rem;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    color: #555;
+    color: var(--text-dim);
     text-decoration: none;
     white-space: nowrap;
     transition: color 0.2s ease;
 }
 
 .section-link:hover {
-    color: #7c8aff;
+    color: var(--accent);
 }
 
 /* ===== Project Grid ===== */
@@ -182,7 +242,7 @@ body {
 
 .project-card {
     padding: 1.15rem 1.1rem;
-    border: 1px solid rgba(255, 255, 255, 0.06);
+    border: 1px solid var(--border);
     border-radius: 4px;
     display: flex;
     flex-direction: column;
@@ -192,7 +252,7 @@ body {
 .project-name {
     font-size: 0.92rem;
     font-weight: 500;
-    color: #e0e0e0;
+    color: var(--text-secondary);
     letter-spacing: -0.01em;
     line-height: 1.4;
 }
@@ -200,7 +260,7 @@ body {
 .project-role {
     font-family: 'JetBrains Mono', monospace;
     font-size: 0.68rem;
-    color: #555;
+    color: var(--text-dim);
     text-transform: uppercase;
     letter-spacing: 0.05em;
 }
@@ -233,18 +293,18 @@ body {
 .pub-venue {
     font-family: 'JetBrains Mono', monospace;
     font-size: 0.7rem;
-    color: #555;
+    color: var(--text-dim);
     line-height: 1;
 }
 
 .badge {
     display: inline-block;
     padding: 0.1rem 0.4rem;
-    background: rgba(124, 138, 255, 0.06);
-    border: 1px solid rgba(124, 138, 255, 0.15);
+    background: var(--badge-bg);
+    border: 1px solid var(--badge-border);
     border-radius: 2px;
     font-size: 0.62rem;
-    color: #7c8aff;
+    color: var(--accent);
     text-transform: uppercase;
     letter-spacing: 0.05em;
     line-height: 1.4;
@@ -253,31 +313,31 @@ body {
 .pub-title {
     font-size: 1rem;
     font-weight: 500;
-    color: #e0e0e0;
+    color: var(--text-secondary);
     line-height: 1.5;
     margin-bottom: 0.4rem;
     letter-spacing: -0.01em;
 }
 
 .pub-title a {
-    color: #e0e0e0;
+    color: var(--text-secondary);
     text-decoration: none;
     transition: color 0.2s ease;
 }
 
 .pub-title a:hover {
-    color: #7c8aff;
+    color: var(--accent);
 }
 
 .pub-authors {
     font-size: 0.82rem;
-    color: #666;
+    color: var(--text-subtle);
     line-height: 1.55;
     margin-bottom: 0.5rem;
 }
 
 .pub-authors strong {
-    color: #bbb;
+    color: var(--text-author-strong);
     font-weight: 600;
 }
 
@@ -288,17 +348,15 @@ body {
 
 .pub-links a {
     font-size: 0.72rem;
-    color: #555;
+    color: var(--text-dim);
     text-decoration: none;
     transition: color 0.2s ease;
     line-height: 1;
 }
 
 .pub-links a:hover {
-    color: #7c8aff;
+    color: var(--accent);
 }
-
-
 
 /* ===== Awards ===== */
 .award-list {
@@ -316,23 +374,23 @@ body {
 }
 
 .award-name {
-    color: #c8c8c8;
+    color: var(--text);
 }
 
 .award-name a {
-    color: #c8c8c8;
+    color: var(--text);
     text-decoration: none;
     transition: color 0.2s ease;
 }
 
 .award-name a:hover {
-    color: #7c8aff;
+    color: var(--accent);
 }
 
 .award-year {
     font-family: 'JetBrains Mono', monospace;
     font-size: 0.7rem;
-    color: #555;
+    color: var(--text-dim);
     white-space: nowrap;
     margin-left: 1rem;
 }
@@ -340,7 +398,7 @@ body {
 /* ===== Misc ===== */
 .misc {
     padding-top: 2rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.04);
+    border-top: 1px solid var(--border-subtle);
 }
 
 .misc .section-label {
@@ -350,25 +408,25 @@ body {
 
 .misc-text {
     font-size: 0.88rem;
-    color: #666;
+    color: var(--text-subtle);
     line-height: 1.65;
 }
 
 .misc-text em {
     font-style: italic;
-    color: #a78bfa;
+    color: var(--accent-em);
 }
 
 /* ===== Footer ===== */
 footer {
-    border-top: 1px solid rgba(255, 255, 255, 0.04);
+    border-top: 1px solid var(--border-subtle);
     padding: 2rem 2.5rem 3rem;
     text-align: center;
 }
 
 footer p {
     font-size: 0.7rem;
-    color: #333;
+    color: var(--footer-text);
 }
 
 /* ===== Fade-in Animation ===== */
@@ -381,6 +439,31 @@ footer p {
 .fade-in.visible {
     opacity: 1;
     transform: translateY(0);
+}
+
+/* ===== Theme Toggle ===== */
+.theme-toggle {
+    position: fixed;
+    top: 1.5rem;
+    right: 1.5rem;
+    width: 36px;
+    height: 36px;
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-dim);
+    font-size: 1rem;
+    transition: color 0.3s ease, border-color 0.3s ease;
+    z-index: 100;
+}
+
+.theme-toggle:hover {
+    color: var(--accent);
+    border-color: var(--accent);
 }
 
 /* ===== Responsive ===== */

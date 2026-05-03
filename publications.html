@@ -31,7 +31,7 @@
             font-size: 0.72rem;
             text-transform: uppercase;
             letter-spacing: 0.12em;
-            color: #555;
+            color: var(--text-dim);
             text-decoration: none;
             transition: color 0.2s ease;
             display: inline-block;
@@ -39,21 +39,21 @@
         }
 
         .pub-page-header .back-link:hover {
-            color: #7c8aff;
+            color: var(--accent);
         }
 
         .pub-page-header h1 {
             font-size: 1.35rem;
             font-weight: 600;
             letter-spacing: -0.025em;
-            color: #f0f0f0;
+            color: var(--text-heading);
             margin-bottom: 0.5rem;
             line-height: 1.2;
         }
 
         .pub-page-header .pub-note {
             font-size: 0.76rem;
-            color: #555;
+            color: var(--text-dim);
             line-height: 1.6;
         }
 
@@ -70,23 +70,23 @@
             text-transform: uppercase;
             letter-spacing: 0.08em;
             padding: 0.35rem 0.85rem;
-            border: 1px solid rgba(255, 255, 255, 0.08);
+            border: 1px solid var(--border-toggle);
             border-radius: 3px;
             background: transparent;
-            color: #555;
+            color: var(--text-dim);
             cursor: pointer;
             transition: all 0.2s ease;
         }
 
         .pub-toggle button:hover {
-            color: #999;
-            border-color: rgba(255, 255, 255, 0.15);
+            color: var(--text-muted);
+            border-color: var(--border-toggle-hover);
         }
 
         .pub-toggle button.active {
-            color: #e0e0e0;
-            border-color: rgba(255, 255, 255, 0.2);
-            background: rgba(255, 255, 255, 0.04);
+            color: var(--text-secondary);
+            border-color: var(--border-toggle-active);
+            background: var(--toggle-active-bg);
         }
 
         /* Year heading */
@@ -94,11 +94,11 @@
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.78rem;
             font-weight: 500;
-            color: #444;
+            color: var(--year-heading);
             margin-top: 2.5rem;
             margin-bottom: 0.8rem;
             padding-bottom: 0.4rem;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+            border-bottom: 1px solid var(--border-subtle);
             line-height: 1.2;
         }
 
@@ -112,18 +112,18 @@
         }
 
         .pub-page .pub-title a {
-            color: #e0e0e0;
+            color: var(--text-secondary);
             text-decoration: none;
             transition: color 0.2s ease;
         }
 
         .pub-page .pub-title a:hover {
-            color: #7c8aff;
+            color: var(--accent);
         }
 
         .pub-page .pub-meta {
             font-size: 0.72rem;
-            color: #555;
+            color: var(--text-dim);
             font-style: italic;
             margin-bottom: 0.25rem;
             line-height: 1.4;
@@ -131,7 +131,7 @@
 
         .pub-page .pub-contrib {
             font-size: 0.72rem;
-            color: #666;
+            color: var(--text-subtle);
             font-style: italic;
             line-height: 1.4;
             margin-top: 0.15rem;
@@ -141,7 +141,7 @@
         .pub-page .pub-contrib.lead {
             font-style: normal;
             font-weight: 500;
-            color: #c0c0c0;
+            color: var(--contrib-lead);
             font-size: 0.68rem;
             letter-spacing: 0.04em;
         }
@@ -150,7 +150,7 @@
             content: '†';
             margin-right: 0.3em;
             font-size: 0.72rem;
-            color: #7c8aff;
+            color: var(--accent);
         }
 
         @media (max-width: 768px) {
@@ -161,23 +161,24 @@
 
         .scholar-note {
             font-size: 0.76rem;
-            color: #555;
+            color: var(--text-dim);
             margin-top: 0.5rem;
             line-height: 1.5;
         }
 
         .scholar-note a {
-            color: #7c8aff;
+            color: var(--accent);
             text-decoration: none;
             transition: color 0.2s ease;
         }
 
         .scholar-note a:hover {
-            color: #a0aaff;
+            color: var(--accent-hover);
         }
     </style>
 </head>
 <body>
+    <button class="theme-toggle" aria-label="Toggle theme">☀</button>
     <main class="pub-page">
         <div class="pub-page-header">
             <a href="index.html" class="back-link">← Back</a>
@@ -479,6 +480,7 @@
     <footer>
         <p></p>
     </footer>
+    <script src="main.js"></script>
     <script>
         function togglePubType(type) {
             // Update button states
