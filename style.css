@@ -209,6 +209,7 @@ body {
 .section-header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 1rem;
     margin-bottom: 1.8rem;
 }
@@ -219,12 +220,6 @@ body {
     letter-spacing: 0.12em;
     color: var(--text-dim);
     white-space: nowrap;
-}
-
-.section-line {
-    flex: 1;
-    height: 1px;
-    background: var(--border);
 }
 
 .section-link {
