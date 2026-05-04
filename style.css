@@ -160,7 +160,7 @@ body {
 
 .bio em {
     font-style: normal;
-    color: var(--accent);
+    color: inherit;
     font-weight: 500;
 }
 
@@ -402,7 +402,6 @@ body {
 /* ===== Misc ===== */
 .misc {
     padding-top: 2rem;
-    border-top: 1px solid var(--border-subtle);
 }
 
 .misc .section-label {
