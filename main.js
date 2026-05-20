@@ -4,6 +4,12 @@
     document.documentElement.setAttribute('data-theme', saved);
 })();
 
+// Force scroll to top on page load (fixes Safari scroll restoration issue)
+if ('scrollRestoration' in history) {
+    history.scrollRestoration = 'manual';
+}
+window.scrollTo(0, 0);
+
 // Subtle fade-in for elements on scroll
 document.addEventListener('DOMContentLoaded', function() {
 // Theme toggle
