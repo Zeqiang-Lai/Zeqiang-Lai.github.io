@@ -71,6 +71,11 @@ a:focus-visible, button:focus-visible {
     border-radius: 2px;
 }
 
+.site-nav a:focus-visible,
+.theme-toggle:focus-visible {
+    outline-offset: 3px;
+}
+
 ::selection {
     background: var(--line);
     color: var(--heading);
@@ -293,6 +298,10 @@ footer {
     border-color: var(--heading);
 }
 
+.pub-toggle button:hover {
+    color: var(--heading);
+}
+
 .year-heading {
     font-size: 14px;
     color: var(--muted);
@@ -411,6 +420,7 @@ footer {
 
 .pub-toolbar {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: baseline;
     gap: 16px;
@@ -437,10 +447,17 @@ footer {
     font-size: 12px;
     color: var(--muted);
     cursor: pointer;
+    margin-left: auto;
+    white-space: nowrap;
 }
 
 .author-toggle:hover {
     color: var(--heading);
+}
+
+.author-toggle[aria-pressed="true"] {
+    color: var(--heading);
+    box-shadow: inset 0 -1px currentColor;
 }
 
 .pub-page .pub-note {
@@ -484,11 +501,12 @@ footer {
 }
 
 .pub-page .pub-title a {
-    text-decoration: none;
+    text-decoration-line: none;
 }
 
-.pub-page .pub-title a:hover {
-    text-decoration: underline;
+.pub-page .pub-title a:hover,
+.pub-page .pub-title a:focus-visible {
+    text-decoration-line: underline;
     text-decoration-color: var(--line);
 }
 
@@ -553,6 +571,7 @@ footer {
     max-width: 560px;
     font-size: 16px;
     line-height: 1.85;
+    text-wrap: pretty;
 }
 
 .research-entry {
@@ -630,6 +649,7 @@ footer {
     grid-template-columns: 144px minmax(0, 1fr);
     gap: 24px;
     align-items: baseline;
+    min-width: 0;
 }
 
 .research-project .project-name {
@@ -642,6 +662,7 @@ footer {
     font-size: 14px;
     line-height: 1.8;
     color: var(--muted);
+    text-wrap: pretty;
 }
 
 .project-code {
@@ -657,11 +678,12 @@ footer {
 }
 
 .research-page .pub-title a, .research-project .project-name a, .research-page .award-name a {
-    text-decoration: none;
+    text-decoration-line: none;
 }
 
-.research-page .pub-title a:hover, .research-project .project-name a:hover, .research-page .award-name a:hover {
-    text-decoration: underline;
+.research-page .pub-title a:hover, .research-project .project-name a:hover, .research-page .award-name a:hover,
+.research-page .pub-title a:focus-visible, .research-project .project-name a:focus-visible, .research-page .award-name a:focus-visible {
+    text-decoration-line: underline;
     text-decoration-color: var(--line);
 }
 
@@ -819,9 +841,29 @@ a:focus-visible, button:focus-visible {
     white-space: nowrap;
 }
 
+.external-arrow,
+.project-name .external-arrow {
+    font-size: 0.85em;
+    color: inherit;
+    white-space: nowrap;
+}
+
 .pub-authors sup {
     font-size: 0.75em;
     line-height: 0;
+}
+
+.pub-title,
+.pub-authors {
+    overflow-wrap: anywhere;
+}
+
+.pub-toggle {
+    flex-shrink: 0;
+}
+
+.pub-toolbar button {
+    transition: color 160ms, border-color 160ms;
 }
 
 @media (pointer: coarse) {
@@ -837,7 +879,7 @@ a:focus-visible, button:focus-visible {
     }
 
     .pub-links a, .contact-details .links a {
-        min-height: 32px;
+        min-height: 36px;
         display: inline-flex;
         align-items: center;
     }

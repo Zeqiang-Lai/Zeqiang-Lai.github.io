@@ -5,6 +5,29 @@
     var authorButton = page.querySelector('.author-toggle');
     var authorNote = page.querySelector('#author-note');
     var status = page.querySelector('#publication-status');
+    var preferenceKey = 'publications.preferences';
+    var preferences = { type: 'paper', showAuthors: false };
+
+    try {
+        var saved = JSON.parse(localStorage.getItem(preferenceKey));
+        if (saved && (saved.type === 'paper' || saved.type === 'report')) {
+            preferences.type = saved.type;
+        }
+        if (saved && typeof saved.showAuthors === 'boolean') {
+            preferences.showAuthors = saved.showAuthors;
+        }
+    } catch (_) {}
+
+    function savePreferences() {
+        try { localStorage.setItem(preferenceKey, JSON.stringify(preferences)); } catch (_) {}
+    }
+
+    function showAuthors(show) {
+        page.classList.toggle('show-authors', show);
+        authorButton.setAttribute('aria-pressed', String(show));
+        authorButton.textContent = show ? 'Hide authors' : 'Show authors';
+        authorNote.hidden = !show;
+    }
 
     function filterPublications(type) {
         var count = 0;
@@ -29,17 +52,20 @@
         button.querySelector('.filter-count').textContent = items.filter(function (item) {
             return item.dataset.type === button.dataset.filter;
         }).length;
-        button.addEventListener('click', function () { filterPublications(button.dataset.filter); });
+        button.addEventListener('click', function () {
+            preferences.type = button.dataset.filter;
+            filterPublications(preferences.type);
+            savePreferences();
+        });
     });
     authorButton.addEventListener('click', function () {
-        var show = page.classList.toggle('show-authors');
-        authorButton.setAttribute('aria-pressed', String(show));
-        authorButton.textContent = show ? 'Hide authors' : 'Show authors';
-        authorNote.hidden = !show;
+        preferences.showAuthors = !preferences.showAuthors;
+        showAuthors(preferences.showAuthors);
+        savePreferences();
     });
 
     page.classList.add('compact-publications');
-    authorNote.hidden = true;
+    showAuthors(preferences.showAuthors);
+    filterPublications(preferences.type);
     page.querySelector('.pub-toolbar').hidden = false;
-    filterPublications('paper');
 })();
