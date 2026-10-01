@@ -3,18 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zeqiang Lai — Multimodal & 3D Generation</title>
+    <title>Zeqiang Lai</title>
     <meta name="description" content="Zeqiang Lai works on multimodal generation and high-fidelity 3D content creation at MMLab, CUHK and Tencent Hunyuan.">
-    <meta name="theme-color" content="#f7f7f5">
+    <meta name="theme-color" content="#ffffff">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Zeqiang Lai — Multimodal & 3D Generation">
+    <meta property="og:title" content="Zeqiang Lai">
     <meta property="og:description" content="Research in multimodal generation and high-fidelity 3D content creation.">
     <meta property="og:image" content="prof.jpg">
     <meta name="twitter:card" content="summary">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=IBM+Plex+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css?v=20261001-blog-minimal">
+    <script src="main.js?v=20261001"></script>
 
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0FN7JHVVEP"></script>
@@ -26,145 +25,43 @@
     </script>
 </head>
 <body>
-    <main class="page">
-        <!-- Header + Publications merged -->
+    <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html" aria-current="page">About</a>
+        <a href="research.html">Research</a>
+        <a href="blog.html">Blog</a>
+    </nav>
+    <main class="page about-page">
         <section class="content">
-            <!-- Left: Identity -->
-            <aside class="sidebar">
-                <div class="photo-frame">
-                    <img src="prof.jpg" alt="Portrait of Zeqiang Lai" width="520" height="650" decoding="async" fetchpriority="high" />
-                </div>
-                <div class="identity">
-                    <h1 class="name">Zeqiang Lai <span class="name-cn">(赖泽强)</span></h1>
-
-                    <p class="affiliation">
-                        <a href="https://mmlab.ie.cuhk.edu.hk/">MMLab, CUHK</a> · <a href="https://hunyuan.tencent.com/">Tencent Hunyuan</a>
-                    </p>
-                    <div class="links">
-                        <a href="mailto:laizeqiang@outlook.com">email</a>
-                        <a href="https://scholar.google.com/citations?user=WUMu1KkAAAAJ">scholar</a>
-                        <a href="https://github.com/Zeqiang-Lai">github</a>
-                        <a href="https://twitter.com/ZeqiangLai">twitter</a>
-                    </div>
-                </div>
-            </aside>
-
-            <!-- Right: Publications -->
+            <header class="identity">
+                <img class="profile-photo" src="prof.jpg" alt="Zeqiang Lai by the sea" width="96" height="96" decoding="async" fetchpriority="high">
+                <h1 class="name">Zeqiang Lai <span class="name-cn">赖泽强</span></h1>
+            </header>
             <div class="main-content">
-                <span class="section-label">About</span>
                 <p class="bio-detail about-copy about-intro">
-                    Hi, I’m Zeqiang. I’m a PhD student at MMLab, CUHK, advised by Xiangyu Yue.
+                    I’m a PhD student at <a href="https://mmlab.ie.cuhk.edu.hk/">MMLab, CUHK</a>, advised by Xiangyu Yue.
                 </p>
                 <p class="bio-detail about-copy">
-                    I build scalable generative models for high-fidelity multimodal content creation, with a current focus on 3D. My recent work contributes to the Hunyuan3D series.
+                    I build scalable generative models for high-fidelity multimodal content creation, with a current focus on 3D. My recent work contributes to the Hunyuan3D series at <a href="https://hunyuan.tencent.com/">Tencent Hunyuan</a>.
                 </p>
 
-                <div class="section-header">
-                    <span class="section-label">Hunyuan3D Series</span>
-                </div>
-
-                <div class="project-grid">
-                    <div class="project-card">
-                        <span class="project-name">Hunyuan3D 3.0</span>
-                        <p class="project-description">High-fidelity 3D generation at up to 1536³ resolution.</p>
-                        <div class="pub-links">
-                            <a href="https://3d.hunyuan.tencent.com/">demo ↗</a>
-                        </div>
+                <section class="connect" aria-labelledby="connect-heading">
+                    <h2 class="section-label" id="connect-heading">Connect</h2>
+                    <div class="contact-details">
+                    <p><a href="mailto:laizeqiang@outlook.com">laizeqiang@outlook.com</a></p>
+                    <nav class="links" aria-label="Social links">
+                        <a href="https://scholar.google.com/citations?user=WUMu1KkAAAAJ">Google Scholar ↗</a>
+                        <a href="https://github.com/Zeqiang-Lai">GitHub ↗</a>
+                        <a href="https://twitter.com/ZeqiangLai">Twitter ↗</a>
+                    </nav>
                     </div>
-                    <div class="project-card">
-                        <span class="project-name">Hunyuan3D 2.5</span>
-                        <p class="project-description">A major upgrade in geometric fidelity and details.</p>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/2506.16504">report ↗</a>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <span class="project-name">Hunyuan3D 2.0</span>
-                        <p class="project-description">Large-scale shape and texture generation.</p>
-                        <div class="pub-links">
-                            <a href="https://arxiv.org/abs/2501.12202">report ↗</a>
-                            <a href="https://github.com/Tencent/Hunyuan3D-2">code ↗</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="section-header">
-                    <span class="section-label">Selected Publications</span>
-                    <a class="section-link" href="publications.html">See more →</a>
-                </div>
-
-                <div class="pub-list">
-                    <article class="pub-item">
-                        <div class="pub-head">
-                            <span class="pub-venue">CVPR 2026</span>
-                        </div>
-                        <h3 class="pub-title"><a href="https://arxiv.org/abs/2512.03052">LATTICE: Democratize High-Fidelity 3D Generation at Scale</a></h3>
-                        <div class="pub-authors"><strong>Z. Lai</strong>*, Y. Zhao*, Z. Zhao, H. Liu, Q. Lin, J. Huang, C. Guo, and X. Yue</div>
-                    </article>
-
-                    <article class="pub-item">
-                        <div class="pub-head">
-                            <span class="pub-venue">CVPR 2026</span>
-                            <span class="badge">highlight</span>
-                        </div>
-                        <h3 class="pub-title"><a href="https://arxiv.org/abs/2511.16317">NaTex: Seamless Texture Generation as Latent Color Diffusion</a></h3>
-                        <div class="pub-authors"><strong>Z. Lai</strong>*, Y. Zhao*, Z. Zhao, X. Yang, X. Huang, J. Huang, X. Yue, and C. Guo</div>
-                    </article>
-
-                    <article class="pub-item">
-                        <div class="pub-head">
-                            <span class="pub-venue">ICCV 2025</span>
-                            <span class="badge">highlight</span>
-                        </div>
-                        <h3 class="pub-title"><a href="https://arxiv.org/abs/2503.16302">Unleashing Vecset Diffusion Model for Fast Shape Generation</a></h3>
-                        <div class="pub-authors"><strong>Z. Lai</strong>*, Y. Zhao*, Z. Zhao, H. Liu, F. Wang, H. Shi, X. Yang, Q. Lin, J. Huang, Y. Liu, J. Jiang, C. Guo, and X. Yue</div>
-                    </article>
-
-                    <article class="pub-item">
-                        <div class="pub-head">
-                            <span class="pub-venue">NeurIPS 2024</span>
-                        </div>
-                        <h3 class="pub-title"><a href="https://arxiv.org/abs/2406.08394">VisionLLM v2: An End-to-End Generalist Multimodal Large Language Model for Hundreds of Vision-Language Tasks</a></h3>
-                        <div class="pub-authors">J. Wu*, M. Zhong*, S. Xing*, <strong>Z. Lai</strong>*, Z. Liu*, W. Wang*, Z. Chen, X. Zhu, L. Lu, T. Lu, et al.</div>
-                    </article>
-
-                    <article class="pub-item">
-                        <div class="pub-head">
-                            <span class="pub-venue">SIGGRAPH 2023</span>
-                        </div>
-                        <h3 class="pub-title"><a href="https://light.princeton.edu/wp-content/uploads/2023/05/deltaprox-main.pdf">∇-Prox: Differentiable Proximal Algorithm Modeling for Large-Scale Optimization</a></h3>
-                        <div class="pub-authors"><strong>Z. Lai</strong>*, K. Wei*, Y. Fu, P. Härtel, and F. Heide</div>
-                    </article>
-
-
-                </div>
-
-                <div class="section-header">
-                    <span class="section-label">Awards</span>
-                </div>
-
-                <ul class="award-list">
-                    <li><span class="award-name"><a href="https://www.meshy.ai/blog/fellowship-2026">Meshy Fellowship Grand Prize</a></span><span class="award-year">2026</span></li>
-                    <li><span class="award-name"><a href="https://ur.tencent.com/article/1509">CIE–Tencent Doctoral Research Fellowship</a></span><span class="award-year">2025</span></li>
-                    <li><span class="award-name">National Scholarship, China</span><span class="award-year">2022</span></li>
-                </ul>
-
-                <!-- Misc -->
-                <div class="misc">
-                    <span class="section-label">Misc</span>
-                    <p class="misc-text">
-                        Rubik’s Cube · photography · Dota 2 ·
-                        currently playing <em>Black Myth: Wukong</em>
-                    </p>
-                </div>
+                </section>
             </div>
         </section>
     </main>
 
     <footer>
-        <button class="theme-toggle" type="button" aria-label="Switch to light theme" title="Switch theme">☀</button>
+        <button class="theme-toggle" type="button" aria-label="Switch to dark theme" title="Switch to dark theme"><svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.4 13A8.5 8.5 0 0 1 11 3.6 8.5 8.5 0 1 0 20.4 13Z"/></svg><svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4m0-14.2-1.4 1.4M6.3 17.7l-1.4 1.4"/></svg></button>
     </footer>
 
-    <script src="main.js"></script>
 </body>
 </html>
