@@ -555,6 +555,36 @@ footer {
     line-height: 1.85;
 }
 
+.research-entry {
+    margin-top: -8px;
+}
+
+.research-entry-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 36px;
+    padding: 4px 0;
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.research-entry-link span {
+    transition: transform 160ms ease;
+}
+
+.research-entry-link:hover,
+.research-entry-link:focus-visible {
+    color: var(--heading);
+}
+
+.research-entry-link:hover span,
+.research-entry-link:focus-visible span {
+    transform: translateX(3px);
+}
+
 .about-page .connect {
     display: grid;
     grid-template-columns: 76px minmax(0, 1fr);
@@ -795,6 +825,9 @@ a:focus-visible, button:focus-visible {
 }
 
 @media (pointer: coarse) {
+    .research-entry-link {
+        min-height: 44px;
+    }
     .site-nav a, .theme-toggle, .pub-toolbar button {
         min-height: 44px;
     }
@@ -811,6 +844,10 @@ a:focus-visible, button:focus-visible {
 }
 
 @media (prefers-reduced-motion: reduce) {
+    .research-entry-link:hover span,
+    .research-entry-link:focus-visible span {
+        transform: none;
+    }
     *, *::before, *::after {
         transition: none !important;
     }
