@@ -1,0 +1,39 @@
+{
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "Zeqiang Lai",
+      "description": "Zeqiang Lai works on multimodal generation and high-fidelity 3D content creation at MMLab, CUHK and Tencent Hunyuan.",
+      "navigation": "about",
+      "social": true,
+      "scripts": [],
+      "social_description": "Research in multimodal generation and high-fidelity 3D content creation."
+    },
+    {
+      "file": "research.html",
+      "title": "Research | Zeqiang Lai",
+      "description": "Selected research, publications, and awards by Zeqiang Lai.",
+      "navigation": "research",
+      "social": true,
+      "scripts": []
+    },
+    {
+      "file": "blog.html",
+      "title": "Blog | Zeqiang Lai",
+      "description": "Writing by Zeqiang Lai.",
+      "navigation": "blog",
+      "social": true,
+      "scripts": []
+    },
+    {
+      "file": "publications.html",
+      "title": "Publications | Zeqiang Lai",
+      "description": "Papers and technical reports by Zeqiang Lai in 3D generation, multimodal learning, and image restoration.",
+      "navigation": "research",
+      "social": false,
+      "scripts": [
+        "publications.js"
+      ]
+    }
+  ]
+}
