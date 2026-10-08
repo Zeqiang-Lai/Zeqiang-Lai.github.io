@@ -575,17 +575,17 @@ footer {
 }
 
 .research-entry {
-    margin-top: -8px;
+    margin-top: 8px;
 }
 
 .recent-publications {
-    margin-top: 28px;
+    margin-top: 36px;
 }
 
 .recent-publications > .section-label {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     color: var(--muted);
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 400;
 }
 
@@ -593,7 +593,7 @@ footer {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 8px 24px;
+    gap: 4px 20px;
     font-size: 14px;
 }
 
@@ -604,11 +604,6 @@ footer {
 
 .recent-research .pub-item {
     scroll-margin-top: 32px;
-}
-
-.research-entry-link {
-    margin-top: 16px;
-    font-size: 13px;
 }
 
 .research-entry-link {
@@ -902,6 +897,12 @@ a:focus-visible, button:focus-visible {
 @media (pointer: coarse) {
     .research-entry-link {
         min-height: 44px;
+    }
+
+    .recent-publication-list a {
+        min-height: 36px;
+        display: inline-flex;
+        align-items: center;
     }
     .site-nav a, .theme-toggle, .pub-toolbar button {
         min-height: 44px;
