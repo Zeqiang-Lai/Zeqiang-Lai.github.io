@@ -10,16 +10,16 @@
         theme = next;
         document.documentElement.setAttribute('data-theme', theme);
         var isDark = theme === 'dark';
-        var background = isDark ? '#111111' : '#ffffff';
+        var background = isDark ? '#15181d' : '#ffffff';
         // Recreate the sampled edge when Safari retains the previous theme color.
         var tint = document.querySelector('.browser-tint');
-        if (tint && tint.style.backgroundColor !== (isDark ? 'rgb(17, 17, 17)' : 'rgb(255, 255, 255)')) {
+        if (tint && tint.style.backgroundColor !== (isDark ? 'rgb(21, 24, 29)' : 'rgb(255, 255, 255)')) {
             var replacement = tint.cloneNode(false);
             replacement.style.backgroundColor = background;
             tint.remove();
             requestAnimationFrame(function () {
                 if (!document.querySelector('.browser-tint')) {
-                    replacement.style.backgroundColor = theme === 'dark' ? '#111111' : '#ffffff';
+                    replacement.style.backgroundColor = theme === 'dark' ? '#15181d' : '#ffffff';
                     document.body.prepend(replacement);
                 }
             });
