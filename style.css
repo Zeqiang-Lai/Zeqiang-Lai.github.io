@@ -578,6 +578,39 @@ footer {
     margin-top: -8px;
 }
 
+.recent-publications {
+    margin-top: 28px;
+}
+
+.recent-publications > .section-label {
+    margin-bottom: 8px;
+    color: var(--muted);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.recent-publication-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 24px;
+    font-size: 14px;
+}
+
+.recent-publication-list a {
+    display: inline-block;
+    padding: 4px 0;
+}
+
+.recent-research .pub-item {
+    scroll-margin-top: 32px;
+}
+
+.research-entry-link {
+    margin-top: 16px;
+    font-size: 13px;
+}
+
 .research-entry-link {
     display: inline-flex;
     align-items: center;
