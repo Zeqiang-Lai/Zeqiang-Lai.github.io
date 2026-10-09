@@ -11,8 +11,7 @@ from string import Template
 ROOT = Path(__file__).resolve().parent.parent
 TEMPLATES = ROOT / "templates"
 NAVIGATION = (("about", "index.html", "About"),
-              ("research", "research.html", "Research"),
-              ("blog", "blog.html", "Blog"))
+              ("research", "research.html", "Research"))
 
 
 def asset_url(filename):
