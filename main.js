@@ -10,16 +10,16 @@
         theme = next;
         document.documentElement.setAttribute('data-theme', theme);
         var isDark = theme === 'dark';
-        var background = isDark ? '#15181d' : '#ffffff';
+        var background = isDark ? '#191919' : '#ffffff';
         // Recreate the sampled edge when Safari retains the previous theme color.
         var tint = document.querySelector('.browser-tint');
-        if (tint && tint.style.backgroundColor !== (isDark ? 'rgb(21, 24, 29)' : 'rgb(255, 255, 255)')) {
+        if (tint && tint.style.backgroundColor !== (isDark ? 'rgb(25, 25, 25)' : 'rgb(255, 255, 255)')) {
             var replacement = tint.cloneNode(false);
             replacement.style.backgroundColor = background;
             tint.remove();
             requestAnimationFrame(function () {
                 if (!document.querySelector('.browser-tint')) {
-                    replacement.style.backgroundColor = theme === 'dark' ? '#15181d' : '#ffffff';
+                    replacement.style.backgroundColor = theme === 'dark' ? '#191919' : '#ffffff';
                     document.body.prepend(replacement);
                 }
             });
@@ -35,6 +35,34 @@
     applyTheme(theme);
     function initializeControls() {
         applyTheme(theme);
+        var tablist = document.querySelector('.research-tabs');
+        if (tablist) {
+            var tabs = Array.from(tablist.querySelectorAll('[role="tab"]'));
+            function selectTab(active) {
+                tabs.forEach(function (tab) {
+                    var selected = tab === active;
+                    tab.setAttribute('aria-selected', String(selected));
+                    tab.tabIndex = selected ? 0 : -1;
+                    document.getElementById(tab.getAttribute('aria-controls')).hidden = !selected;
+                });
+            }
+            tabs.forEach(function (tab, index) {
+                tab.addEventListener('click', function () { selectTab(tab); });
+                tab.addEventListener('keydown', function (event) {
+                    var next;
+                    if (event.key === 'ArrowRight') next = (index + 1) % tabs.length;
+                    if (event.key === 'ArrowLeft') next = (index + tabs.length - 1) % tabs.length;
+                    if (event.key === 'Home') next = 0;
+                    if (event.key === 'End') next = tabs.length - 1;
+                    if (next === undefined) return;
+                    event.preventDefault();
+                    selectTab(tabs[next]);
+                    tabs[next].focus();
+                });
+            });
+            selectTab(tabs[0]);
+            tablist.hidden = false;
+        }
         document.querySelectorAll('.theme-toggle').forEach(function (button) {
             button.addEventListener('click', function () {
                 applyTheme(theme === 'dark' ? 'light' : 'dark');

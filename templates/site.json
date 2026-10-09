@@ -34,6 +34,14 @@
       "scripts": [
         "publications.js"
       ]
+    },
+    {
+      "file": "blog-demo.html",
+      "title": "Looking closer at 3D | Zeqiang Lai",
+      "description": "A sample article for previewing the blog layout.",
+      "navigation": "blog",
+      "social": false,
+      "scripts": []
     }
   ]
 }

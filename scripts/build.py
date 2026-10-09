@@ -23,11 +23,10 @@ def asset_url(filename):
 def render_page(page, layout):
     title = html.escape(page["title"], quote=True)
     description = html.escape(page["description"], quote=True)
-    navigation = ['    <nav class="site-nav" aria-label="Main navigation">']
+    navigation = []
     for key, url, label in NAVIGATION:
         current = ' aria-current="page"' if key == page["navigation"] else ""
         navigation.append(f'        <a href="{url}"{current}>{label}</a>')
-    navigation.append("    </nav>")
     social_metadata = ""
     if page["social"]:
         social_metadata = '\n'.join((
