@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="432" viewBox="0 74 1200 432" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Mixture of Experts — sparse routing</title>
+  <desc id="desc">A token representation is routed to two of four experts. Expert 1 and Expert 3 are active; their outputs are combined with weights 0.65 and 0.35. The other experts remain inactive for this token.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 7 3.5 0 7" fill="#65747b"/></marker>
+    <marker id="teal" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 7 3.5 0 7" fill="#418579"/></marker>
+    <marker id="clay" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 7 3.5 0 7" fill="#bd7659"/></marker>
+  </defs>
+  <rect y="74" width="1200" height="432" rx="20" fill="#f8f9f7"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+
+    <!-- Muted branches represent experts not selected for this token. -->
+    <g stroke="#d4dcda" stroke-width="2" stroke-dasharray="5 7">
+      <path d="M451 285 C515 285 515 245 580 245"/>
+      <path d="M451 285 C515 285 515 425 580 425"/>
+      <path d="M770 245 C848 245 848 285 918 285"/>
+      <path d="M770 425 C848 425 848 285 918 285"/>
+    </g>
+    <!-- Active paths carry the token and the weighted expert outputs. -->
+    <path d="M199 285 H293" stroke="#65747b" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <path d="M451 285 C515 285 515 155 578 155" stroke="#418579" stroke-width="3" marker-end="url(#teal)"/>
+    <path d="M451 285 C515 285 515 335 578 335" stroke="#bd7659" stroke-width="3" marker-end="url(#clay)"/>
+    <path d="M770 155 C850 155 850 270 918 270" stroke="#418579" stroke-width="3" marker-end="url(#teal)"/>
+    <path d="M770 335 C850 335 850 302 918 302" stroke="#bd7659" stroke-width="3" marker-end="url(#clay)"/>
+    <path d="M988 285 H1072" stroke="#65747b" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+    <rect x="77" y="244" width="122" height="82" rx="13" fill="white" stroke="#cdd6d3" stroke-width="1.5"/>
+    <g fill="#708c98"><rect x="99" y="274" width="12" height="22" rx="3"/><rect x="119" y="260" width="12" height="50" rx="3"/><rect x="139" y="270" width="12" height="30" rx="3"/><rect x="159" y="264" width="12" height="42" rx="3"/></g>
+    <text x="138" y="363" text-anchor="middle" font-size="21" fill="#34464b">Token</text>
+    <text x="138" y="390" text-anchor="middle" font-size="16" fill="#7b888c">representation x</text>
+
+    <rect x="297" y="228" width="154" height="114" rx="17" fill="#e9eef0" stroke="#bdccd1" stroke-width="1.5"/>
+    <text x="374" y="277" text-anchor="middle" fill="#344d58" font-size="25" font-weight="600">Router</text>
+    <text x="374" y="308" text-anchor="middle" fill="#6b7e86" font-size="17">score &amp; select</text>
+
+    <rect x="580" y="122" width="190" height="66" rx="12" fill="#e3eee8" stroke="#77a697" stroke-width="1.5"/>
+    <rect x="580" y="212" width="190" height="66" rx="12" fill="#f3f5f2" stroke="#dce2df"/>
+    <rect x="580" y="302" width="190" height="66" rx="12" fill="#f4e8e0" stroke="#d3a18a" stroke-width="1.5"/>
+    <rect x="580" y="392" width="190" height="66" rx="12" fill="#f3f5f2" stroke="#dce2df"/>
+    <g font-size="23" text-anchor="middle">
+      <text x="675" y="163" fill="#326e61">Expert 1</text>
+      <text x="675" y="253" fill="#9ba8a3">Expert 2</text>
+      <text x="675" y="343" fill="#a46043">Expert 3</text>
+      <text x="675" y="433" fill="#9ba8a3">Expert 4</text>
+    </g>
+    <rect x="799" y="161" width="63" height="29" rx="7" fill="#f8f9f7"/>
+    <text x="830" y="182" text-anchor="middle" font-size="18" fill="#418579">0.65</text>
+    <rect x="799" y="333" width="63" height="29" rx="7" fill="#f8f9f7"/>
+    <text x="830" y="354" text-anchor="middle" font-size="18" fill="#bd7659">0.35</text>
+
+    <circle cx="953" cy="285" r="35" fill="white" stroke="#bfcac6" stroke-width="1.5"/>
+    <path d="M940 285 H966 M953 272 V298" stroke="#5c7169" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="953" y="363" text-anchor="middle" fill="#34464b" font-size="20">Weighted sum</text>
+    <rect x="1076" y="254" width="52" height="62" rx="11" fill="#e3ebe7" stroke="#aebfb7" stroke-width="1.5"/>
+    <text x="1102" y="294" text-anchor="middle" fill="#4a6d5c" font-size="27" font-style="italic">y</text>
+    <text x="1102" y="363" text-anchor="middle" fill="#34464b" font-size="20">Output</text>
+
+  </g>
+</svg>

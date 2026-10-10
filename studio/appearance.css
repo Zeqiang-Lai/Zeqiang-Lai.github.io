@@ -1,0 +1,52 @@
+/* Reading colors apply only in Studio, including its preview iframe. */
+:root[data-reading="warm"] {
+    color-scheme: light;
+    --bg: #f0eee8;
+    --text: #44443f;
+    --heading: #30312e;
+    --muted: #6e7069;
+    --line: #d9d8d0;
+    --hover: #e8e6df;
+    --accent: #426680;
+    --paper: var(--bg);
+    --surface: #eae8e1;
+    --ink: var(--text);
+    --tint: var(--hover);
+}
+:root[data-reading="dark"] {
+    color-scheme: dark;
+    --bg: #252724;
+    --text: #cecec5;
+    --heading: #e0e0d6;
+    --muted: #a5a79e;
+    --line: #3d4039;
+    --hover: #30332d;
+    --accent: #a1bbc8;
+    --paper: var(--bg);
+    --surface: #20221f;
+    --ink: var(--text);
+    --tint: var(--hover);
+}
+#source {
+    font-size: 15px;
+    line-height: 1.95;
+    padding: 28px 30px;
+}
+#reading-theme {
+    color: var(--ink);
+    background: var(--paper);
+    border: 1px solid var(--line);
+    padding: 5px 7px;
+    font: inherit;
+    font-size: 12px;
+    max-width: 130px;
+}
+html[data-reading] body { background: var(--surface, var(--bg)); }
+.source-pane, .preview-pane { background: var(--paper); }
+:root[data-reading="dark"] button.primary { border-color: var(--muted); }
+:root[data-reading="dark"] .dialog-error { background: #3b2c29; color: #edb4a6; }
+:root[data-reading="dark"] .katex-error { color: #edb4a6; }
+:root[data-reading="dark"] dialog::backdrop { background: #0007; }
+@media (max-width: 760px) {
+    #source { padding: 22px; }
+}
