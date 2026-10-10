@@ -1040,13 +1040,14 @@ footer { margin-top: 42px; padding-bottom: 32px; }
 @media (max-width: 600px) {
     .page, .pub-page { padding-top: 100px; }
     .site-nav { top: 20px; right: 12px; gap: 2px; }
-    .profile-intro { grid-template-columns: minmax(0, 1fr) 92px; gap: 16px; }
+    .profile-intro { grid-template-columns: 80px minmax(0, 1fr); gap: 16px 20px; }
     .profile-copy { display: contents; }
-    .about-page .name { grid-column: 1; grid-row: 1; align-self: center; font-size: 29px; margin: 0; }
+    .about-page .name { grid-column: 2; grid-row: 1; align-self: center; font-size: clamp(24px, 7vw, 29px); margin: 0; }
     .about-page .name-cn { display: block; margin: 8px 0 0; font-size: 14px; }
-    .profile-photo { grid-column: 2; grid-row: 1; width: 92px; height: 104px; margin: 0; border-radius: 8px; }
+    .profile-photo { grid-column: 1; grid-row: 1; width: 80px; height: 80px; margin: 0; border-radius: 8px; }
     .profile-copy .bio-detail, .profile-links { grid-column: 1 / -1; }
     .about-page .bio-detail { font-size: 16px; line-height: 1.6; margin: 0; }
+    .profile-copy .name + .bio-detail { margin-top: 22px; }
     .profile-links { gap: 12px 19px; margin-top: 4px; font-size: 14px; }
     .home-research { margin-top: 40px; }
     .home-section-heading { gap: 12px; margin-bottom: 24px; }
