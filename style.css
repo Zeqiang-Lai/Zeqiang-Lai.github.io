@@ -1396,23 +1396,31 @@ footer { margin-top: 42px; padding-bottom: 32px; }
 }
 .lattice-thumbnail { position: relative; }
 .about-page .lattice-thumbnail .lattice-detail {
+    --detail-x: 0%;
+    --detail-y: 38%;
     position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
+    left: calc(var(--detail-x) * -1.7);
+    top: calc(var(--detail-y) * -1.7);
+    width: 270%;
+    height: 270%;
+    max-width: none;
     object-fit: cover;
     opacity: 0;
+    transform-origin: var(--detail-x) var(--detail-y);
+    transform: scale(0.3703703704);
     transition: none;
     animation: lattice-detail-tour 27s ease-in-out infinite;
 }
-.lattice-detail-dragon { transform-origin: 0% 38%; }
-.about-page .lattice-thumbnail .lattice-detail-machine { transform-origin: 40% 24%; animation-delay: -18s; }
-.about-page .lattice-thumbnail .lattice-detail-lion { transform-origin: 95% 44%; animation-delay: -9s; }
+.about-page .lattice-thumbnail .lattice-detail-machine { --detail-x: 40%; --detail-y: 24%; animation-delay: -18s; }
+.about-page .lattice-thumbnail .lattice-detail-lion { --detail-x: 95%; --detail-y: 44%; animation-delay: -9s; }
+/* Paint at maximum size and only scale down. Fade in while aligned with the base,
+   zoom fully opaque, then fade out at full zoom and reset only while invisible. */
 @keyframes lattice-detail-tour {
-    0% { opacity: 0; transform: scale(1); }
-    5% { opacity: 1; transform: scale(1.1); }
-    20%, 25% { opacity: 1; transform: scale(2.7); }
-    31%, 100% { opacity: 0; transform: scale(2.7); }
+    0% { opacity: 0; transform: scale(0.3703703704); }
+    2% { opacity: 1; transform: scale(0.3703703704); }
+    20%, 25% { opacity: 1; transform: scale(1); }
+    31% { opacity: 0; transform: scale(1); }
+    32%, 100% { opacity: 0; transform: scale(0.3703703704); }
 }
 @media (prefers-reduced-motion: reduce) {
     .about-page .paper-thumbnail img { transition: none; }
